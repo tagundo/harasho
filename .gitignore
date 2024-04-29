@@ -1,0 +1,9 @@
+*.*
+data/
+data/suit/
+data/live/
+data/tower/
+data/card/
+db/gl/
+db/jp/
+stages/
