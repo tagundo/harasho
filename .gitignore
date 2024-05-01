@@ -1,9 +1,9 @@
 *.*
-data/
-data/suit/
-data/live/
-data/tower/
-data/card/
+package/
+package/suit/
+package/live/
+package/tower/
+package/card/
 db/gl/
 db/jp/
 stages/
