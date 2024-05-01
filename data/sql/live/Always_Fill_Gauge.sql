@@ -1,1 +1,0 @@
-UPDATE m_live_difficuly_const SET sp_gauge_length = 0;

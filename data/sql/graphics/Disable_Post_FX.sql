@@ -1,1 +1,0 @@
-UPDATE m_live_quality_setting SET posteffect = 0 WHERE set_id = 30;

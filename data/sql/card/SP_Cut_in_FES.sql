@@ -1,1 +1,0 @@
-UPDATE m_card SET sp_point = 4;
