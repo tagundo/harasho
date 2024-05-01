@@ -1,0 +1,6 @@
+[submodule "package/suit/tatara_hisoka"]
+	path = package/suit/tatara_hisoka
+	url = https://gitlab.com/tatara_hisoka/giran.git
+[submodule "package/sql/tatara_hisoka"]
+	path = package/sql/tatara_hisoka
+	url = https://gitlab.com/tatara_hisoka/zura.git
