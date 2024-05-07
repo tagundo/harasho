@@ -99,3 +99,4 @@ UPDATE m_tower_period SET closed_at = 0x7ffeae7f, result_at = 0x7ffed8af, end_at
 UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id / 1000 == 13;
 UPDATE m_login_bonus_birthday SET id = 100000 + id * 100 + 1 WHERE id <= 209;
 UPDATE m_background SET id = 121002 WHERE id = 121001;
+UPDATE m_member_guild_period SET start_at = 1617008400;

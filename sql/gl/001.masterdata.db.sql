@@ -169,3 +169,5 @@ UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id / 1000 == 13;
 UPDATE m_login_bonus_birthday SET id = 100000 + id * 100 + 1 WHERE id <= 209;
 -- Update Shioriko first background to match the id system
 UPDATE m_background SET id = 121002 WHERE id = 121001;
+-- Update m_member_guild_period to sync GL and JP server, allowing for cross play
+UPDATE m_member_guild_period SET start_at = 1617008400;
