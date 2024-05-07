@@ -1,1 +1,0 @@
-UPDATE m_live_quality_setting SET stage_control = 0 WHERE set_id = 30;
