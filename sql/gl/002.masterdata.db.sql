@@ -144,7 +144,6 @@ UPDATE m_live_difficulty_override_member_mapping SET suit_master_id = 320913 WHE
 UPDATE m_live_difficulty_override_member_mapping SET suit_master_id = 321113 WHERE member_master_id = 211;
 UPDATE m_live_difficulty_override_member_mapping SET suit_master_id = 321213 WHERE member_master_id = 212;
 -- updated quality settings
-UPDATE m_live_quality_setting SET rendering_resolution = 1440 WHERE quality_mode = 10;
 UPDATE m_live_quality_setting SET frame_rate_60fps = 0;
 -- unlock bond story
 UPDATE m_story_member SET love_level = 1;
