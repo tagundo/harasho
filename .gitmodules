@@ -4,3 +4,6 @@
 [submodule "package/sql/tatara_hisoka"]
 	path = package/sql/tatara_hisoka
 	url = https://gitlab.com/tatara_hisoka/zura.git
+[submodule "package/card/tatara_hisoka"]
+	path = package/card/tatara_hisoka
+	url = https://gitlab.com/tatara_hisoka/oom.git
