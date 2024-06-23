@@ -18,13 +18,13 @@ UPDATE m_dictionary SET message = "收藏" WHERE id = "daily_theater_archive_202
 -- Toggled favorite button. Original: <img src="Common/InlineImage/Icon/tex_inlineimage_dailytheater_02" width="32px" height="32px" offsetY="-5px" margin-right="5px" />お気に入り
 -- Remember to fix the margins for best looking button
 -- viewing menu favorite
-UPDATE m_dictionary SET message = "<img src=""Common/InlineImage/Icon/tex_inlineimage_dailytheater_01"" width=""32px"" height=""32px"" offsetY=""-5px"" margin-right=""5px"" />Favorite" WHERE id = "daily_104";
+UPDATE m_dictionary SET message = "<img src=""Common/InlineImage/Icon/tex_inlineimage_dailytheater_01"" width=""32px"" height=""32px"" offsetY=""-5px"" margin-right=""5px"" />喜爱" WHERE id = "daily_104";
 -- viewing menu toggled favorite
-UPDATE m_dictionary SET message = "<img src=""Common/InlineImage/Icon/tex_inlineimage_dailytheater_02"" width=""32px"" height=""32px"" offsetY=""-5px"" margin-right=""5px"" />Favorite" WHERE id = "daily_105";
+UPDATE m_dictionary SET message = "<img src=""Common/InlineImage/Icon/tex_inlineimage_dailytheater_02"" width=""32px"" height=""32px"" offsetY=""-5px"" margin-right=""5px"" />喜爱" WHERE id = "daily_105";
 -- Aarchive favorite
-UPDATE m_dictionary SET message = "<img src=""Common/InlineImage/Icon/tex_inlineimage_dailytheater_01"" width=""32px"" height=""32px"" offsetY=""-5px"" margin-right=""5px"" />Favorite" WHERE id = "daily_theater_archive_204";
+UPDATE m_dictionary SET message = "<img src=""Common/InlineImage/Icon/tex_inlineimage_dailytheater_01"" width=""32px"" height=""32px"" offsetY=""-5px"" margin-right=""5px"" />喜爱" WHERE id = "daily_theater_archive_204";
 -- Archive toggled favorite
-UPDATE m_dictionary SET message = "<img src=""Common/InlineImage/Icon/tex_inlineimage_dailytheater_02"" width=""32px"" height=""32px"" offsetY=""-5px"" margin-right=""5px"" />Favorite" WHERE id = "daily_theater_archive_220";
+UPDATE m_dictionary SET message = "<img src=""Common/InlineImage/Icon/tex_inlineimage_dailytheater_02"" width=""32px"" height=""32px"" offsetY=""-5px"" margin-right=""5px"" />喜爱" WHERE id = "daily_theater_archive_220";
 
 
 -- Year format strings. Original: {0}年
