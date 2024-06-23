@@ -1,6 +1,6 @@
 # Harasho
 
-This is the repository that handles versions of the game that [elichika](https://gitlab.com/tatara_hisoka/harasho) can load. This include:
+This is the repository that handles versions of the game that [elichika](https://gitlab.com/tatara_hisoka/elichika) can load. This include:
 
 - `masterdata.db` and other client databases.
 - Beatmaps.
