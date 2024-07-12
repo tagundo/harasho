@@ -3,10 +3,10 @@
 
 INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_heal','Gain {0} Stamina!');
 INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_shield','Gain {0} Shield!');
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_vo','Gain {0} Voltage with an VO!');
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sp','Gain {0} Voltage with an SP!');
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_gd','Gain {0} Voltage with an GD!');
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sk','Gain {0} Voltage with an SK!');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_vo','Gain {0} Voltage with an VO Type!');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sp','Gain {0} Voltage with an SP Type!');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_gd','Gain {0} Voltage with an GD Type!');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sk','Gain {0} Voltage with an SK Type!');
 INSERT INTO m_dictionary VALUES ('item_desc_1402','A Training item that guarantees your leader will discover a super rare Insight Skill.');
 INSERT INTO m_dictionary VALUES ('item_name_1402','Insight Pin ★3');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1402','★3');

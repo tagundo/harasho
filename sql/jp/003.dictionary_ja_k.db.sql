@@ -2,12 +2,12 @@
 -- Restoration stuff
 -- Translated with ChatGPT
 
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_heal','{0}スタミナを獲得！');
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_shield','{0}シールドを獲得！');
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_vo','VOで{0}ボルテージを獲得！');
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sp','SPで{0}ボルテージを獲得！');
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_gd','GDで{0}ボルテージを獲得！');
-INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sk','SKで{0}ボルテージを獲得！');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_heal','{0}スタミナを回復しよう！');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_shield','{0}シールドを獲得しよう！');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_vo','VOタイプで{0}ボルテージ獲得しよう！');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sp','SPタイプで{0}ボルテージ獲得しよう！');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_gd','GDタイプで{0}ボルテージ獲得しよう！');
+INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sk','SKタイプで{0}ボルテージ獲得しよう！');
 INSERT INTO m_dictionary VALUES ('item_desc_1402','超希少なインサイトスキルをリーダーが発見することを保証するトレーニングアイテム。');
 INSERT INTO m_dictionary VALUES ('item_name_1402','ひらめきバッヂ★3');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1402','★3');

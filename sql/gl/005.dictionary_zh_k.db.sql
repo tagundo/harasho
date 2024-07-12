@@ -1,9 +1,9 @@
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_heal','获得{0}耐力！');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_shield','获得{0}护盾！');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_vo','VO 增益 {0} 电压！');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sp','使用 SP 增益 {0} 电压！');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_gd','使用 GD 增益 {0} 电压！');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sk','使用 SK 获取 {0} 电压！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_heal','累積{0}體力吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_shield','累積{0}護盾吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_vo','使用VO類型累積{0}張力吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sp','使用SP類型累積{0}張力吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_gd','使用GD類型累積{0}張力吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sk','使用SK類型累積{0}張力吧！');
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'dic_external_movie_url_1';
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'dic_external_movie_url_2';
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'dic_external_movie_url_6';

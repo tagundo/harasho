@@ -1,9 +1,9 @@
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_heal','체력 {0} 획득!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_shield','보호막 {0} 획득!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_vo','VO로 {0} 전압을 얻으십시오!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sp','SP로 {0} 전압을 얻으세요!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_gd','GD로 {0} 전압을 얻으세요!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sk','SK로 {0} 전압을 얻으세요!');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_heal','{0}체력을 회복하자!');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_shield','{0}실드를 획득하자!');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_vo','VO 타입으로 {0}볼티지를 획득하자!');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sp','SP 타입으로 {0}볼티지를 획득하자!');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_gd','GD 타입으로 {0}볼티지를 획득하자!');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sk','SK 타입으로 {0}볼티지를 획득하자!');
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'dic_external_movie_url_1';
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'dic_external_movie_url_2';
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'dic_external_movie_url_6';
