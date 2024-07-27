@@ -10,12 +10,10 @@ INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sk','G
 INSERT INTO m_dictionary VALUES ('item_desc_1402','A Training item that guarantees your leader will discover a super rare Insight Skill.');
 INSERT INTO m_dictionary VALUES ('item_name_1402','Insight Pin ★3');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1402','★3');
-INSERT INTO m_dictionary VALUES ('item_desc_1501','A Training item that increases the drop rate of super rare items.
-You can obtain these when you complete Goals.');
+INSERT INTO m_dictionary VALUES ('item_desc_1501','A Training item that increases the drop rate of super rare items.\nYou can obtain these when you complete Goals.');
 INSERT INTO m_dictionary VALUES ('item_name_1501','Lucky Charm ★2');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1501','★2');
-INSERT INTO m_dictionary VALUES ('item_desc_1502','A Training item that increases the drop rate of ultra rare items.
-You can obtain these when you complete Goals.');
+INSERT INTO m_dictionary VALUES ('item_desc_1502','A Training item that increases the drop rate of ultra rare items.\nYou can obtain these when you complete Goals.');
 INSERT INTO m_dictionary VALUES ('item_name_1502','Lucky Charm ★3');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1502','★3');
 UPDATE m_dictionary SET message = 'School Idol Radiance (R)' WHERE id = 'item_name_1800';
