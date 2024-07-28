@@ -11,10 +11,10 @@ INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_voltage_by_sk','S
 INSERT INTO m_dictionary VALUES ('item_desc_1402','リーダーが超希少なひらめきスキルを必ずひらめく合宿アイテム');
 INSERT INTO m_dictionary VALUES ('item_name_1402','ひらめきバッヂ★3');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1402','★3');
-INSERT INTO m_dictionary VALUES ('item_desc_1501','超希少なアイテムのドロップ率を上げる合宿アイテム\n課題の達成時に獲得できます');
+INSERT INTO m_dictionary VALUES ('item_desc_1501','超希少なアイテムのドロップ率を上げる合宿アイテム. 課題の達成時に獲得できます');
 INSERT INTO m_dictionary VALUES ('item_name_1501','幸運のおまもり★2');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1501','★2');
-INSERT INTO m_dictionary VALUES ('item_desc_1502','ウルトラレアアイテムのドロップ率を上げる合宿アイテム\n課題の達成時に獲得できます');
+INSERT INTO m_dictionary VALUES ('item_desc_1502','ウルトラレアアイテムのドロップ率を上げる合宿アイテム. 課題の達成時に獲得できます');
 INSERT INTO m_dictionary VALUES ('item_name_1502','幸運のおまもり★3');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1502','★3');
 UPDATE m_dictionary SET message = 'スクールアイドルの輝き (R)' WHERE id = 'item_name_1800';
