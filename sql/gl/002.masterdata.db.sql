@@ -987,4 +987,5 @@ UPDATE m_live_difficulty_override_member_mapping SET suit_master_id = 321213 WHE
 -- updated quality settings
 UPDATE m_live_quality_setting SET frame_rate_60fps = 0;
 -- unlock bond story
-UPDATE m_story_member SET love_level = 1;
+UPDATE m_story_member_open SET start_at = 0;
+UPDATE m_story_member_open SET end_at = 2147483647;
