@@ -1,32 +1,9 @@
--- SIFAS Plus (GL JP Client)
--- todo list
+-- SIFAS Single Player (GL JP Client)
+-- 
 
--- RESTORE UNUSED CONTENT
+-- START RESTORE UNUSED CONTENT
 -- lvl 500 bond
 UPDATE m_member_init SET love_point_limit = 13181880;
--- lvl 100 card
--- R
-UPDATE m_member_love_panel_bonus SET bonus_value = 9 WHERE bonus_type = 13 AND member_love_panel_master_id >= 10001 AND member_love_panel_master_id <= 10212;
-UPDATE m_member_love_panel_bonus SET bonus_value = 9 WHERE bonus_type = 13 AND member_love_panel_master_id >= 20001 AND member_love_panel_master_id <= 20212;
-UPDATE m_member_love_panel_bonus SET bonus_value = 9 WHERE bonus_type = 13 AND member_love_panel_master_id >= 30001 AND member_love_panel_master_id <= 30212;
-UPDATE m_member_love_panel_cell SET bonus_value = 8 WHERE bonus_type = 13 AND id >= 15001 AND id <= 15212;
-UPDATE m_member_love_panel_cell SET bonus_value = 8 WHERE bonus_type = 13 AND id >= 115001 AND id <= 115212;
-UPDATE m_member_love_panel_cell SET bonus_value = 8 WHERE bonus_type = 13 AND id >= 215001 AND id <= 215212;
-UPDATE m_member_love_panel_cell SET bonus_value = 9 WHERE bonus_type = 13 AND id >= 315001 AND id <= 315212;
--- SR
-UPDATE m_member_love_panel_bonus SET bonus_value = 6 WHERE bonus_type = 14 AND member_love_panel_master_id >= 10001 AND member_love_panel_master_id <= 10212;
-UPDATE m_member_love_panel_bonus SET bonus_value = 6 WHERE bonus_type = 14 AND member_love_panel_master_id >= 20001 AND member_love_panel_master_id <= 20212;
-UPDATE m_member_love_panel_bonus SET bonus_value = 8 WHERE bonus_type = 14 AND member_love_panel_master_id >= 30001 AND member_love_panel_master_id <= 30212;
-UPDATE m_member_love_panel_cell SET bonus_value = 6 WHERE bonus_type = 14 AND id >= 35001 AND id <= 35212;
-UPDATE m_member_love_panel_cell SET bonus_value = 6 WHERE bonus_type = 14 AND id >= 135001 AND id <= 135212;
-UPDATE m_member_love_panel_cell SET bonus_value = 8 WHERE bonus_type = 14 AND id >= 235001 AND id <= 235212;
--- UR
-UPDATE m_member_love_panel_bonus SET bonus_value = 3 WHERE bonus_type = 15 AND member_love_panel_master_id >= 10001 AND member_love_panel_master_id <= 10212;
-UPDATE m_member_love_panel_bonus SET bonus_value = 3 WHERE bonus_type = 15 AND member_love_panel_master_id >= 20001 AND member_love_panel_master_id <= 20212;
-UPDATE m_member_love_panel_bonus SET bonus_value = 4 WHERE bonus_type = 15 AND member_love_panel_master_id >= 30001 AND member_love_panel_master_id <= 30212;
-UPDATE m_member_love_panel_cell SET bonus_value = 3 WHERE bonus_type = 15 AND id >= 65001 AND id <= 65212;
-UPDATE m_member_love_panel_cell SET bonus_value = 3 WHERE bonus_type = 15 AND id >= 165001 AND id <= 165212;
-UPDATE m_member_love_panel_cell SET bonus_value = 4 WHERE bonus_type = 15 AND id >= 265001 AND id <= 265212;
 -- SP Cut In Lanzhu & Mia
 UPDATE m_card SET sp_point = 4 WHERE id = 402113001;
 UPDATE m_card SET sp_point = 4 WHERE id = 402123001;
@@ -896,6 +873,8 @@ UPDATE m_card_grade_up_item SET content_id = 1802 WHERE content_id = 1800 AND ca
 UPDATE m_card_grade_up_item SET content_id = 1802 WHERE content_id = 1800 AND card_id = 402123002;
 UPDATE m_card_grade_up_item SET content_id = 1802 WHERE content_id = 1800 AND card_id = 402123003;
 UPDATE m_card_grade_up_item SET content_id = 1802 WHERE content_id = 1800 AND card_id = 402123004;
+-- END
+
 -- OTHER CHANGES
 -- replace pre-render MV with realtime (save hundred megabyte drive)
 UPDATE m_story_main_cell SET live_difficulty_id = 12036301 WHERE id = 20002;
@@ -989,3 +968,136 @@ UPDATE m_live_quality_setting SET frame_rate_60fps = 0;
 -- unlock bond story
 UPDATE m_story_member_open SET start_at = 0;
 UPDATE m_story_member_open SET end_at = 2147483647;
+
+-- Add missing love level bonus *not able to expand right now
+INSERT INTO "m_member_love_panel" VALUES (33001,420,1);
+INSERT INTO "m_member_love_panel" VALUES (34001,440,1);
+INSERT INTO "m_member_love_panel" VALUES (35001,460,1);
+INSERT INTO "m_member_love_panel" VALUES (36001,480,1);
+INSERT INTO "m_member_love_panel" VALUES (37001,500,1);
+INSERT INTO "m_member_love_panel" VALUES (38001,520,1);
+INSERT INTO "m_member_love_panel" VALUES (39001,540,1);
+INSERT INTO "m_member_love_panel" VALUES (40001,560,1);
+INSERT INTO "m_member_love_panel" VALUES (41001,580,1);
+INSERT INTO "m_member_love_panel" VALUES (42001,600,1);
+INSERT INTO "m_member_love_panel" VALUES (43001,620,1);
+INSERT INTO "m_member_love_panel" VALUES (44001,640,1);
+INSERT INTO "m_member_love_panel" VALUES (45001,660,1);
+INSERT INTO "m_member_love_panel" VALUES (46001,680,1);
+INSERT INTO "m_member_love_panel" VALUES (47001,700,1);
+INSERT INTO "m_member_love_panel" VALUES (48001,720,1);
+INSERT INTO "m_member_love_panel" VALUES (49001,740,1);
+INSERT INTO "m_member_love_panel" VALUES (50001,760,1);
+INSERT INTO "m_member_love_panel_bonus" VALUES (33001,3,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (34001,7,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (35001,6,200);
+INSERT INTO "m_member_love_panel_bonus" VALUES (36001,4,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (37001,5,2000);
+INSERT INTO "m_member_love_panel_bonus" VALUES (38001,12,500);
+INSERT INTO "m_member_love_panel_bonus" VALUES (39001,7,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (40001,13,6);
+INSERT INTO "m_member_love_panel_bonus" VALUES (40001,14,4);
+INSERT INTO "m_member_love_panel_bonus" VALUES (40001,15,2);
+INSERT INTO "m_member_love_panel_bonus" VALUES (41001,1,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (42001,2,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (43001,3,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (44001,7,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (45001,6,200);
+INSERT INTO "m_member_love_panel_bonus" VALUES (46001,4,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (47001,5,2000);
+INSERT INTO "m_member_love_panel_bonus" VALUES (48001,12,500);
+INSERT INTO "m_member_love_panel_bonus" VALUES (49001,7,100);
+INSERT INTO "m_member_love_panel_bonus" VALUES (50001,13,6);
+INSERT INTO "m_member_love_panel_bonus" VALUES (50001,14,4);
+INSERT INTO "m_member_love_panel_bonus" VALUES (50001,15,2);
+
+INSERT INTO "m_member_love_panel_cell" VALUES (322001, 1, 33001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (323001, 2, 33001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (324001, 3, 33001, 7, 20);
+INSERT INTO "m_member_love_panel_cell" VALUES (325001, 4, 33001, 12, 250);
+INSERT INTO "m_member_love_panel_cell" VALUES (331001, 0, 34001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (332001, 1, 34001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (333001, 2, 34001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (334001, 3, 34001, 10, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (335001, 4, 34001, 14, 4);
+INSERT INTO "m_member_love_panel_cell" VALUES (341001, 0, 35001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (342001, 1, 35001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (343001, 2, 35001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (344001, 3, 35001, 5, 500);
+INSERT INTO "m_member_love_panel_cell" VALUES (345001, 4, 35001, 7, 20);
+INSERT INTO "m_member_love_panel_cell" VALUES (351001, 0, 36001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (352001, 1, 36001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (353001, 2, 36001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (354001, 3, 36001, 6, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (355001, 4, 36001, 11, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (361001, 0, 37001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (362001, 1, 37001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (363001, 2, 37001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (364001, 3, 37001, 4, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (365001, 4, 37001, 15, 2);
+INSERT INTO "m_member_love_panel_cell" VALUES (371001, 0, 38001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (372001, 1, 38001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (373001, 2, 33001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (374001, 3, 38001, 6, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (375001, 4, 38001, 9, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (381001, 0, 39001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (382001, 1, 39001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (383001, 2, 39001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (384001, 3, 39001, 8, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (385001, 4, 39001, 4, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (391001, 0, 40001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (392001, 1, 40001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (393001, 2, 40001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (394001, 3, 40001, 7, 20);
+INSERT INTO "m_member_love_panel_cell" VALUES (395001, 4, 40001, 5, 500);
+
+INSERT INTO "m_member_love_panel_cell" VALUES (401001, 0, 41001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (402001, 1, 41001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (403001, 2, 41001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (404001, 3, 41001, 4, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (405001, 4, 41001, 6, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (411001, 0, 42001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (412001, 1, 42001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (413001, 2, 42001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (414001, 3, 42001, 5, 500);
+INSERT INTO "m_member_love_panel_cell" VALUES (415001, 4, 42001, 13, 6);
+INSERT INTO "m_member_love_panel_cell" VALUES (421001, 0, 43001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (422001, 1, 43001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (423001, 2, 43001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (424001, 3, 43001, 7, 20);
+INSERT INTO "m_member_love_panel_cell" VALUES (425001, 4, 43001, 12, 250);
+INSERT INTO "m_member_love_panel_cell" VALUES (431001, 0, 44001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (432001, 1, 44001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (433001, 2, 44001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (434001, 3, 44001, 10, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (435001, 4, 44001, 14, 4);
+INSERT INTO "m_member_love_panel_cell" VALUES (441001, 0, 45001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (442001, 1, 45001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (443001, 2, 45001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (444001, 3, 45001, 5, 500);
+INSERT INTO "m_member_love_panel_cell" VALUES (445001, 4, 45001, 7, 20);
+INSERT INTO "m_member_love_panel_cell" VALUES (451001, 0, 46001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (452001, 1, 46001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (453001, 2, 46001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (454001, 3, 46001, 6, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (455001, 4, 46001, 11, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (461001, 0, 47001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (462001, 1, 47001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (463001, 2, 47001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (464001, 3, 47001, 4, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (465001, 4, 47001, 15, 2);
+INSERT INTO "m_member_love_panel_cell" VALUES (471001, 0, 48001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (472001, 1, 48001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (473001, 2, 43001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (474001, 3, 48001, 6, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (475001, 4, 48001, 9, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (481001, 0, 49001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (482001, 1, 49001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (483001, 2, 49001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (484001, 3, 49001, 8, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (485001, 4, 49001, 4, 50);
+INSERT INTO "m_member_love_panel_cell" VALUES (491001, 0, 50001, 1, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (492001, 1, 50001, 3, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (493001, 2, 50001, 2, 10);
+INSERT INTO "m_member_love_panel_cell" VALUES (494001, 3, 50001, 7, 20);
+INSERT INTO "m_member_love_panel_cell" VALUES (495001, 4, 50001, 5, 500);
