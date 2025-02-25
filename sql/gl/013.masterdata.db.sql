@@ -968,13 +968,13 @@ UPDATE m_live_quality_setting SET frame_rate_60fps = 0;
 UPDATE m_story_member_open SET start_at = 0;
 UPDATE m_story_member_open SET end_at = 2147483647;
 -- add reference book
-INSERT INTO "m_reference_book" VALUES (1007, 'k.elichika_title_1', 'k.elichika_description_1', 'Qc', 'k.elichika_link_1', NULL, 7);
-INSERT INTO "m_reference_book" VALUES (1008, 'k.elichika_title_2', 'k.elichika_description_2', 'Qc', 'k.elichika_link_2', NULL, 8);
-INSERT INTO "m_reference_book" VALUES (1009, 'k.elichika_title_3', 'k.elichika_description_3', 'Qc', 'k.elichika_link_3', NULL, 9);
-INSERT INTO "m_reference_book" VALUES (1010, 'k.elichika_title_4', 'k.elichika_description_4', 'Qc', 'k.elichika_link_4', NULL, 10);
-INSERT INTO "m_reference_book" VALUES (1011, 'k.elichika_title_5', 'k.elichika_description_5', 'Qc', 'k.elichika_link_5', NULL, 11);
-INSERT INTO "m_reference_book" VALUES (1012, 'k.elichika_title_6', 'k.elichika_description_6', 'Qc', 'k.elichika_link_6', NULL, 12);
-INSERT INTO "m_reference_book" VALUES (1013, 'k.elichika_title_7', 'k.elichika_description_7', 'Qc', 'k.elichika_link_7', NULL, 13);
+INSERT INTO "m_reference_book" VALUES (1015, 'k.elichika_title_1', 'k.elichika_description_1', 'Qc', 'k.elichika_link_1', NULL, 15);
+INSERT INTO "m_reference_book" VALUES (1016, 'k.elichika_title_2', 'k.elichika_description_2', 'Qc', 'k.elichika_link_2', NULL, 16);
+INSERT INTO "m_reference_book" VALUES (1017, 'k.elichika_title_3', 'k.elichika_description_3', 'Qc', 'k.elichika_link_3', NULL, 17);
+INSERT INTO "m_reference_book" VALUES (1018, 'k.elichika_title_4', 'k.elichika_description_4', 'Qc', 'k.elichika_link_4', NULL, 18);
+INSERT INTO "m_reference_book" VALUES (1019, 'k.elichika_title_5', 'k.elichika_description_5', 'Qc', 'k.elichika_link_5', NULL, 19);
+INSERT INTO "m_reference_book" VALUES (1020, 'k.elichika_title_6', 'k.elichika_description_6', 'Qc', 'k.elichika_link_6', NULL, 20);
+INSERT INTO "m_reference_book" VALUES (1021, 'k.elichika_title_7', 'k.elichika_description_7', 'Qc', 'k.elichika_link_7', NULL, 21);
 -- fix display sort costume
 UPDATE m_suit SET display_order = 1998414 WHERE id = 100011001;
 UPDATE m_suit SET display_order = 1998415 WHERE id = 100021001;
