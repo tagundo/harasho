@@ -1,6 +1,4 @@
--- SIFAS Plus
--- Restoration stuff
--- Translated with ChatGPT
+-- SIFAS Single Player (GL JP Client)
 
 INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_heal','{0}スタミナを回復しよう！');
 INSERT INTO m_dictionary VALUES ('live_appeal_time_mission_got_shield','{0}シールドを獲得しよう！');
@@ -32,3 +30,27 @@ UPDATE m_dictionary SET message = 'https://youtu.be/nIq4z2fnzFU' WHERE id = 'rev
 UPDATE m_dictionary SET message = 'https://youtu.be/nIq4z2fnzFU' WHERE id = 'review_request_url_story_clear_story_chapter_select';
 UPDATE m_dictionary SET message = 'https://youtu.be/nIq4z2fnzFU' WHERE id = 'review_request_url_story_clear_story_main';
 UPDATE m_dictionary SET message = 'https://youtu.be/nIq4z2fnzFU' WHERE id = 'review_request_url_story_clear_story_part_select';
+
+-- Reference Book
+UPDATE m_dictionary SET message = 'この外部サイトはブラウザーアプリを開きます.' WHERE id = 'reference_book_l_105';
+INSERT INTO m_dictionary VALUES ('elichika_title_1','Youtube');
+INSERT INTO m_dictionary VALUES ('elichika_description_1','Hisoka Tatara');
+INSERT INTO m_dictionary VALUES ('elichika_link_1','https://www.youtube.com/@hisoka_tatara');
+INSERT INTO m_dictionary VALUES ('elichika_title_2','Mods Page');
+INSERT INTO m_dictionary VALUES ('elichika_description_2','Gamebanana');
+INSERT INTO m_dictionary VALUES ('elichika_link_2','https://gamebanana.com/games/20519');
+INSERT INTO m_dictionary VALUES ('elichika_title_3','Gitlab');
+INSERT INTO m_dictionary VALUES ('elichika_description_3','Elichika');
+INSERT INTO m_dictionary VALUES ('elichika_link_3','https://gitlab.com/tatara_hisoka/elichika');
+INSERT INTO m_dictionary VALUES ('elichika_title_4','Discord');
+INSERT INTO m_dictionary VALUES ('elichika_description_4','LL Hax');
+INSERT INTO m_dictionary VALUES ('elichika_link_4','https://discord.gg/VnhnvdW8CG');
+INSERT INTO m_dictionary VALUES ('elichika_title_5','Discord');
+INSERT INTO m_dictionary VALUES ('elichika_description_5','r/Otonokizaka');
+INSERT INTO m_dictionary VALUES ('elichika_link_5','https://discord.gg/haha98');
+INSERT INTO m_dictionary VALUES ('elichika_title_6','WebUI');
+INSERT INTO m_dictionary VALUES ('elichika_description_6','Admin');
+INSERT INTO m_dictionary VALUES ('elichika_link_6','http://127.0.0.1:8080/webui/admin');
+INSERT INTO m_dictionary VALUES ('elichika_title_7','WebUI');
+INSERT INTO m_dictionary VALUES ('elichika_description_7','User');
+INSERT INTO m_dictionary VALUES ('elichika_link_7','http://127.0.0.1:8080/webui/user');

@@ -1,5 +1,4 @@
--- arina999999997 patch JP
--- commit : cd2b90d
+-- AIO Patch be23bc10e31ebfd0f09af2e0e19922579b75efe8 (4 January 2025)
 INSERT INTO m_live VALUES (42030, 0, 2030, "music_2030", "music_2030_SABI", 12030, "k.song_name_so2030", "k.song_pronunciation_so2030", 3, NULL, "k.m_dic_member_name_210", "k.song_copyright_so2030", NULL, "Apa", "SI", 42030);
 INSERT INTO m_live_difficulty_const VALUES (11072101, 3600, 10000, 50, 10000, 252, 50000, 250000, 50000, 30000);
 INSERT INTO m_live_difficulty_const VALUES (11006401, 7200, 10000, 100, 10000, 433, 100000, 500000, 50000, 30000);
@@ -93,10 +92,18 @@ INSERT INTO m_live_difficulty_gimmick VALUES (1000414, 11072301, 2, 1, 1, 500723
 INSERT INTO m_live_difficulty_gimmick VALUES (1000205, 12031101, 2, 1, 1, 50005601, "k.live_detail_difficulty_1000205", "k.live_detail_hint_12031101_2");
 INSERT INTO m_live_difficulty_gimmick VALUES (1000217, 12033101, 2, 1, 1, 50005301, "k.live_detail_difficulty_1000217", "k.live_detail_hint_12033101_2");
 INSERT INTO m_live_difficulty_gimmick VALUES (1000214, 12032101, 2, 1, 1, 50005401, "k.live_detail_difficulty_1000214", "k.live_detail_hint_12032101_2");
+-- Unlock DLP, only once for DLP that has multiple sessions
 UPDATE m_tower_period SET closed_at = 0x7fffffff, result_at = 0x7fffffff, end_at = 0x7fffffff WHERE tower_id NOT IN (33001, 33002, 33003, 33004, 33036, 133001);
+-- 33001 is the same as 133001, so no need to add it, we also need to modify the latest version
 UPDATE m_tower_period SET closed_at = 0x7fffffff, result_at = 0x7fffffff, end_at = 0x7fffffff WHERE id IN (33002048, 33003048, 33004048, 33036006, 133001048);
+-- tower with ranking need to have the time a bit different
 UPDATE m_tower_period SET closed_at = 0x7ffeae7f, result_at = 0x7ffed8af, end_at = 0x7fffffff WHERE id IN (33041046, 33042047, 33043048);
+-- Unlock Liella songs
 UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id / 1000 == 13;
+-- Update m_login_bonus_birthday to be more consistent
+-- Update the first login bonus to match newer format
 UPDATE m_login_bonus_birthday SET id = 100000 + id * 100 + 1 WHERE id <= 209;
+-- Update Shioriko first background to match the id system
 UPDATE m_background SET id = 121002 WHERE id = 121001;
+-- Update m_member_guild_period to sync GL and JP server, allowing for cross play
 UPDATE m_member_guild_period SET start_at = 1617008400;

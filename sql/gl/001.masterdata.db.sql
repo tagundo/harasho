@@ -1,3 +1,4 @@
+-- AIO Patch be23bc10e31ebfd0f09af2e0e19922579b75efe8 (4 January 2025)
 -- Add missing live for beatmap consistency
 INSERT INTO m_live VALUES (42030, 0, 2030, "music_2030", "music_2030_SABI", 12030, "k.song_name_so2030", "k.song_pronunciation_so2030", 3, NULL, "k.m_dic_member_name_210", "k.song_copyright_so2030", NULL, "Apa", "SI", 42030);
 INSERT INTO m_live VALUES (41072, 0, 1072, "music_1072", "music_1072_SABI", 11072, "k.song_name_so1072", "k.song_pronunciation_so1072", 2, NULL, "k.m_dic_group_name_aqours", "k.song_copyright_so1072", NULL, "~;;", "SI", 41072);
@@ -200,7 +201,7 @@ INSERT INTO m_inline_image (id, path) VALUES ("Common/InlineImage/Member/tex_sd_
 INSERT INTO m_inline_image (id, path) VALUES ("Common/InlineImage/Member/tex_sd_ch0208_dr0003_01", "kfk");
 INSERT INTO m_inline_image (id, path) VALUES ("Common/InlineImage/Member/tex_sd_ch9999_dr0003_01", "pqA");
 -- Note that 9999 is Rina, and R3birth already exist in gl database for some reason
-
 -- This is the pin icon for favorite
 INSERT INTO m_inline_image (id, path) VALUES ("Common/InlineImage/Icon/tex_inlineimage_dailytheater_01", ";c}");
 INSERT INTO m_inline_image (id, path) VALUES ("Common/InlineImage/Icon/tex_inlineimage_dailytheater_02", "X""I");
+
