@@ -3,7 +3,7 @@
 
 -- START RESTORE UNUSED CONTENT
 -- lvl 500 bond
-UPDATE m_member_init SET love_point_limit = 37194391;
+UPDATE m_member_init SET love_point_limit = 352914380;
 -- SP Cut In Lanzhu & Mia
 UPDATE m_card SET sp_point = 4 WHERE id = 402113001;
 UPDATE m_card SET sp_point = 4 WHERE id = 402123001;
