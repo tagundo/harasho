@@ -34,19 +34,19 @@ UPDATE m_dictionary SET message = 'https://youtu.be/nIq4z2fnzFU' WHERE id = 'rev
 -- Reference Book
 UPDATE m_dictionary SET message = 'この外部サイトはブラウザーアプリを開きます.' WHERE id = 'reference_book_l_105';
 INSERT INTO m_dictionary VALUES ('elichika_title_1','Youtube');
-INSERT INTO m_dictionary VALUES ('elichika_description_1','Hisoka Tatara');
+INSERT INTO m_dictionary VALUES ('elichika_description_1','Subscribe to Hisoka Tatara');
 INSERT INTO m_dictionary VALUES ('elichika_link_1','https://www.youtube.com/@hisoka_tatara');
-INSERT INTO m_dictionary VALUES ('elichika_title_2','Mods Page');
-INSERT INTO m_dictionary VALUES ('elichika_description_2','Gamebanana');
+INSERT INTO m_dictionary VALUES ('elichika_title_2','Gamebanana');
+INSERT INTO m_dictionary VALUES ('elichika_description_2','Subscribe to SIFAS Mods Page');
 INSERT INTO m_dictionary VALUES ('elichika_link_2','https://gamebanana.com/games/20519');
 INSERT INTO m_dictionary VALUES ('elichika_title_3','Gitlab');
-INSERT INTO m_dictionary VALUES ('elichika_description_3','Elichika');
+INSERT INTO m_dictionary VALUES ('elichika_description_3','Give us Star');
 INSERT INTO m_dictionary VALUES ('elichika_link_3','https://gitlab.com/tatara_hisoka/elichika');
 INSERT INTO m_dictionary VALUES ('elichika_title_4','Discord');
-INSERT INTO m_dictionary VALUES ('elichika_description_4','LL Hax');
+INSERT INTO m_dictionary VALUES ('elichika_description_4','Join LL Hax Server');
 INSERT INTO m_dictionary VALUES ('elichika_link_4','https://discord.gg/VnhnvdW8CG');
 INSERT INTO m_dictionary VALUES ('elichika_title_5','Discord');
-INSERT INTO m_dictionary VALUES ('elichika_description_5','r/Otonokizaka');
+INSERT INTO m_dictionary VALUES ('elichika_description_5','Join r/Otonokizaka Server');
 INSERT INTO m_dictionary VALUES ('elichika_link_5','https://discord.gg/haha98');
 INSERT INTO m_dictionary VALUES ('elichika_title_6','WebUI');
 INSERT INTO m_dictionary VALUES ('elichika_description_6','Admin');
