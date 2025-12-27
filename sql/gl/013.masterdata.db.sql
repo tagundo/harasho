@@ -2566,6 +2566,29 @@ UPDATE m_suit SET display_order = 2000000 WHERE id = 321212;
 -- Unlock expert difficulty
 UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_difficulty_id = 10118401;
 UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_difficulty_id = 11008401;
+-- Move daily songs to free
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 10054;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 10059;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 10061;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 10064;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 10066;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 10067;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 10070;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 10073;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 10076;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 11059;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 11062;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 11064;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 11065;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 11066;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 11067;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 11068;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 11069;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 11070;
+-- use closed instead daily
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 12088 AND unlock_pattern = 3;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 12090 AND unlock_pattern = 3;
+UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id = 12092 AND unlock_pattern = 3;
 -- restore mission
 UPDATE m_mission SET end_at = NULL WHERE id = 900003303;
 UPDATE m_mission SET end_at = NULL WHERE id = 301400010;
@@ -3033,37 +3056,6 @@ UPDATE m_mission SET end_at = NULL WHERE id = 900023103;
 UPDATE m_mission SET end_at = NULL WHERE id = 900023104;
 UPDATE m_mission SET end_at = NULL WHERE id = 900023105;
 UPDATE m_mission SET end_at = NULL WHERE id = 900023106;
--- OMG SHE LOOKS SEXY
-UPDATE m_member_init SET suit_m_id = 300104 WHERE member_m_id = 1;
-UPDATE m_member_init SET suit_m_id = 300204 WHERE member_m_id = 2;
-UPDATE m_member_init SET suit_m_id = 300304 WHERE member_m_id = 3;
-UPDATE m_member_init SET suit_m_id = 300404 WHERE member_m_id = 4;
-UPDATE m_member_init SET suit_m_id = 300504 WHERE member_m_id = 5;
-UPDATE m_member_init SET suit_m_id = 300604 WHERE member_m_id = 6;
-UPDATE m_member_init SET suit_m_id = 300711 WHERE member_m_id = 7;
-UPDATE m_member_init SET suit_m_id = 300804 WHERE member_m_id = 8;
-UPDATE m_member_init SET suit_m_id = 300915 WHERE member_m_id = 9;
-UPDATE m_member_init SET suit_m_id = 310105 WHERE member_m_id = 101;
-UPDATE m_member_init SET suit_m_id = 310205 WHERE member_m_id = 102;
-UPDATE m_member_init SET suit_m_id = 310305 WHERE member_m_id = 103;
-UPDATE m_member_init SET suit_m_id = 310415 WHERE member_m_id = 104;
-UPDATE m_member_init SET suit_m_id = 310505 WHERE member_m_id = 105;
-UPDATE m_member_init SET suit_m_id = 310605 WHERE member_m_id = 106;
-UPDATE m_member_init SET suit_m_id = 310705 WHERE member_m_id = 107;
-UPDATE m_member_init SET suit_m_id = 310805 WHERE member_m_id = 108;
-UPDATE m_member_init SET suit_m_id = 310905 WHERE member_m_id = 109;
-UPDATE m_member_init SET suit_m_id = 320103 WHERE member_m_id = 201;
-UPDATE m_member_init SET suit_m_id = 320203 WHERE member_m_id = 202;
-UPDATE m_member_init SET suit_m_id = 320313 WHERE member_m_id = 203;
-UPDATE m_member_init SET suit_m_id = 320403 WHERE member_m_id = 204;
-UPDATE m_member_init SET suit_m_id = 320503 WHERE member_m_id = 205;
-UPDATE m_member_init SET suit_m_id = 320613 WHERE member_m_id = 206;
-UPDATE m_member_init SET suit_m_id = 320703 WHERE member_m_id = 207;
-UPDATE m_member_init SET suit_m_id = 320803 WHERE member_m_id = 208;
-UPDATE m_member_init SET suit_m_id = 320913 WHERE member_m_id = 209;
-UPDATE m_member_init SET suit_m_id = 321013 WHERE member_m_id = 210;
-UPDATE m_member_init SET suit_m_id = 321113 WHERE member_m_id = 211;
-UPDATE m_member_init SET suit_m_id = 321213 WHERE member_m_id = 212;
 -- Add missing love level
 INSERT INTO "m_love_parameter" VALUES (501, 1545);
 INSERT INTO "m_love_parameter" VALUES (502, 1546);
