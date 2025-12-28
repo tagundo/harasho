@@ -3803,25 +3803,25 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494001, 1002704, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495001, 1002705, 10, 0, 69);
 --this is alot copies
 -- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33002,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34002,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35002,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36002,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37002,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38002,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39002,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40002,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41002,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42002,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43002,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44002,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45002,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46002,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47002,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48002,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49002,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50002,760,1);
+-- added my self
+INSERT INTO "m_member_love_panel" VALUES (33002,420,2);
+INSERT INTO "m_member_love_panel" VALUES (34002,440,2);
+INSERT INTO "m_member_love_panel" VALUES (35002,460,2);
+INSERT INTO "m_member_love_panel" VALUES (36002,480,2);
+INSERT INTO "m_member_love_panel" VALUES (37002,500,2);
+INSERT INTO "m_member_love_panel" VALUES (38002,520,2);
+INSERT INTO "m_member_love_panel" VALUES (39002,540,2);
+INSERT INTO "m_member_love_panel" VALUES (40002,560,2);
+INSERT INTO "m_member_love_panel" VALUES (41002,580,2);
+INSERT INTO "m_member_love_panel" VALUES (42002,600,2);
+INSERT INTO "m_member_love_panel" VALUES (43002,620,2);
+INSERT INTO "m_member_love_panel" VALUES (44002,640,2);
+INSERT INTO "m_member_love_panel" VALUES (45002,660,2);
+INSERT INTO "m_member_love_panel" VALUES (46002,680,2);
+INSERT INTO "m_member_love_panel" VALUES (47002,700,2);
+INSERT INTO "m_member_love_panel" VALUES (48002,720,2);
+INSERT INTO "m_member_love_panel" VALUES (49002,740,2);
+INSERT INTO "m_member_love_panel" VALUES (50002,760,2);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33002,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34002,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35002,6,200);
@@ -3844,7 +3844,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49002,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50002,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50002,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50002,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321002, 0, 33002, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322002, 1, 33002, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323002, 2, 33002, 2, 10);
@@ -3885,7 +3885,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392002, 1, 40002, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393002, 2, 40002, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394002, 3, 40002, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395002, 4, 40002, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401002, 0, 41002, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402002, 1, 41002, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403002, 2, 41002, 2, 10);
@@ -3936,7 +3936,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492002, 1, 50002, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493002, 2, 50002, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494002, 3, 50002, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495002, 4, 50002, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321002, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322002, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323002, 1002703, 10, 0, 69);
@@ -4027,26 +4027,25 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492002, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493002, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494002, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495002, 1002705, 10, 0, 69);
--- add missing reward love panel
 -- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33003,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34003,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35003,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36003,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37003,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38003,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39003,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40003,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41003,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42003,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43003,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44003,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45003,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46003,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47003,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48003,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49003,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50003,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33003,420,3);
+INSERT INTO "m_member_love_panel" VALUES (34003,440,3);
+INSERT INTO "m_member_love_panel" VALUES (35003,460,3);
+INSERT INTO "m_member_love_panel" VALUES (36003,480,3);
+INSERT INTO "m_member_love_panel" VALUES (37003,500,3);
+INSERT INTO "m_member_love_panel" VALUES (38003,520,3);
+INSERT INTO "m_member_love_panel" VALUES (39003,540,3);
+INSERT INTO "m_member_love_panel" VALUES (40003,560,3);
+INSERT INTO "m_member_love_panel" VALUES (41003,580,3);
+INSERT INTO "m_member_love_panel" VALUES (42003,600,3);
+INSERT INTO "m_member_love_panel" VALUES (43003,620,3);
+INSERT INTO "m_member_love_panel" VALUES (44003,640,3);
+INSERT INTO "m_member_love_panel" VALUES (45003,660,3);
+INSERT INTO "m_member_love_panel" VALUES (46003,680,3);
+INSERT INTO "m_member_love_panel" VALUES (47003,700,3);
+INSERT INTO "m_member_love_panel" VALUES (48003,720,3);
+INSERT INTO "m_member_love_panel" VALUES (49003,740,3);
+INSERT INTO "m_member_love_panel" VALUES (50003,760,3);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33003,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34003,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35003,6,200);
@@ -4069,7 +4068,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49003,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50003,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50003,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50003,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321003, 0, 33003, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322003, 1, 33003, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323003, 2, 33003, 2, 10);
@@ -4110,7 +4109,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392003, 1, 40003, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393003, 2, 40003, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394003, 3, 40003, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395003, 4, 40003, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401003, 0, 41003, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402003, 1, 41003, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403003, 2, 41003, 2, 10);
@@ -4161,7 +4160,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492003, 1, 50003, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493003, 2, 50003, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494003, 3, 50003, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495003, 4, 50003, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321003, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322003, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323003, 1002703, 10, 0, 69);
@@ -4252,26 +4251,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492003, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493003, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494003, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495003, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33004,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34004,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35004,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36004,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37004,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38004,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39004,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40004,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41004,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42004,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43004,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44004,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45004,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46004,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47004,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48004,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49004,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50004,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33004,420,4);
+INSERT INTO "m_member_love_panel" VALUES (34004,440,4);
+INSERT INTO "m_member_love_panel" VALUES (35004,460,4);
+INSERT INTO "m_member_love_panel" VALUES (36004,480,4);
+INSERT INTO "m_member_love_panel" VALUES (37004,500,4);
+INSERT INTO "m_member_love_panel" VALUES (38004,520,4);
+INSERT INTO "m_member_love_panel" VALUES (39004,540,4);
+INSERT INTO "m_member_love_panel" VALUES (40004,560,4);
+INSERT INTO "m_member_love_panel" VALUES (41004,580,4);
+INSERT INTO "m_member_love_panel" VALUES (42004,600,4);
+INSERT INTO "m_member_love_panel" VALUES (43004,620,4);
+INSERT INTO "m_member_love_panel" VALUES (44004,640,4);
+INSERT INTO "m_member_love_panel" VALUES (45004,660,4);
+INSERT INTO "m_member_love_panel" VALUES (46004,680,4);
+INSERT INTO "m_member_love_panel" VALUES (47004,700,4);
+INSERT INTO "m_member_love_panel" VALUES (48004,720,4);
+INSERT INTO "m_member_love_panel" VALUES (49004,740,4);
+INSERT INTO "m_member_love_panel" VALUES (50004,760,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33004,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34004,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35004,6,200);
@@ -4294,7 +4291,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49004,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50004,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50004,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50004,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321004, 0, 33004, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322004, 1, 33004, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323004, 2, 33004, 2, 10);
@@ -4335,7 +4332,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392004, 1, 40004, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393004, 2, 40004, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394004, 3, 40004, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395004, 4, 40004, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401004, 0, 41004, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402004, 1, 41004, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403004, 2, 41004, 2, 10);
@@ -4386,7 +4383,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492004, 1, 50004, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493004, 2, 50004, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494004, 3, 50004, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495004, 4, 50004, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321004, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322004, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323004, 1002703, 10, 0, 69);
@@ -4477,26 +4474,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492004, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493004, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494004, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495004, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33005,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34005,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35005,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36005,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37005,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38005,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39005,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40005,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41005,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42005,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43005,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44005,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45005,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46005,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47005,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48005,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49005,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50005,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33005,420,5);
+INSERT INTO "m_member_love_panel" VALUES (34005,440,5);
+INSERT INTO "m_member_love_panel" VALUES (35005,460,5);
+INSERT INTO "m_member_love_panel" VALUES (36005,480,5);
+INSERT INTO "m_member_love_panel" VALUES (37005,500,5);
+INSERT INTO "m_member_love_panel" VALUES (38005,520,5);
+INSERT INTO "m_member_love_panel" VALUES (39005,540,5);
+INSERT INTO "m_member_love_panel" VALUES (40005,560,5);
+INSERT INTO "m_member_love_panel" VALUES (41005,580,5);
+INSERT INTO "m_member_love_panel" VALUES (42005,600,5);
+INSERT INTO "m_member_love_panel" VALUES (43005,620,5);
+INSERT INTO "m_member_love_panel" VALUES (44005,640,5);
+INSERT INTO "m_member_love_panel" VALUES (45005,660,5);
+INSERT INTO "m_member_love_panel" VALUES (46005,680,5);
+INSERT INTO "m_member_love_panel" VALUES (47005,700,5);
+INSERT INTO "m_member_love_panel" VALUES (48005,720,5);
+INSERT INTO "m_member_love_panel" VALUES (49005,740,5);
+INSERT INTO "m_member_love_panel" VALUES (50005,760,5);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33005,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34005,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35005,6,200);
@@ -4519,7 +4514,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49005,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50005,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50005,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50005,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321005, 0, 33005, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322005, 1, 33005, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323005, 2, 33005, 2, 10);
@@ -4560,7 +4555,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392005, 1, 40005, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393005, 2, 40005, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394005, 3, 40005, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395005, 4, 40005, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401005, 0, 41005, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402005, 1, 41005, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403005, 2, 41005, 2, 10);
@@ -4611,7 +4606,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492005, 1, 50005, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493005, 2, 50005, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494005, 3, 50005, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495005, 4, 50005, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321005, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322005, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323005, 1002703, 10, 0, 69);
@@ -4702,26 +4697,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492005, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493005, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494005, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495005, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33006,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34006,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35006,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36006,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37006,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38006,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39006,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40006,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41006,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42006,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43006,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44006,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45006,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46006,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47006,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48006,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49006,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50006,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33006,420,6);
+INSERT INTO "m_member_love_panel" VALUES (34006,440,6);
+INSERT INTO "m_member_love_panel" VALUES (35006,460,6);
+INSERT INTO "m_member_love_panel" VALUES (36006,480,6);
+INSERT INTO "m_member_love_panel" VALUES (37006,500,6);
+INSERT INTO "m_member_love_panel" VALUES (38006,520,6);
+INSERT INTO "m_member_love_panel" VALUES (39006,540,6);
+INSERT INTO "m_member_love_panel" VALUES (40006,560,6);
+INSERT INTO "m_member_love_panel" VALUES (41006,580,6);
+INSERT INTO "m_member_love_panel" VALUES (42006,600,6);
+INSERT INTO "m_member_love_panel" VALUES (43006,620,6);
+INSERT INTO "m_member_love_panel" VALUES (44006,640,6);
+INSERT INTO "m_member_love_panel" VALUES (45006,660,6);
+INSERT INTO "m_member_love_panel" VALUES (46006,680,6);
+INSERT INTO "m_member_love_panel" VALUES (47006,700,6);
+INSERT INTO "m_member_love_panel" VALUES (48006,720,6);
+INSERT INTO "m_member_love_panel" VALUES (49006,740,6);
+INSERT INTO "m_member_love_panel" VALUES (50006,760,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33006,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34006,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35006,6,200);
@@ -4744,7 +4737,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49006,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50006,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50006,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50006,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321006, 0, 33006, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322006, 1, 33006, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323006, 2, 33006, 2, 10);
@@ -4785,7 +4778,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392006, 1, 40006, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393006, 2, 40006, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394006, 3, 40006, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395006, 4, 40006, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401006, 0, 41006, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402006, 1, 41006, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403006, 2, 41006, 2, 10);
@@ -4836,7 +4829,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492006, 1, 50006, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493006, 2, 50006, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494006, 3, 50006, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495006, 4, 50006, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321006, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322006, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323006, 1002703, 10, 0, 69);
@@ -4927,26 +4920,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492006, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493006, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494006, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495006, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33007,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34007,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35007,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36007,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37007,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38007,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39007,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40007,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41007,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42007,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43007,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44007,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45007,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46007,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47007,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48007,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49007,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50007,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33007,420,7);
+INSERT INTO "m_member_love_panel" VALUES (34007,440,7);
+INSERT INTO "m_member_love_panel" VALUES (35007,460,7);
+INSERT INTO "m_member_love_panel" VALUES (36007,480,7);
+INSERT INTO "m_member_love_panel" VALUES (37007,500,7);
+INSERT INTO "m_member_love_panel" VALUES (38007,520,7);
+INSERT INTO "m_member_love_panel" VALUES (39007,540,7);
+INSERT INTO "m_member_love_panel" VALUES (40007,560,7);
+INSERT INTO "m_member_love_panel" VALUES (41007,580,7);
+INSERT INTO "m_member_love_panel" VALUES (42007,600,7);
+INSERT INTO "m_member_love_panel" VALUES (43007,620,7);
+INSERT INTO "m_member_love_panel" VALUES (44007,640,7);
+INSERT INTO "m_member_love_panel" VALUES (45007,660,7);
+INSERT INTO "m_member_love_panel" VALUES (46007,680,7);
+INSERT INTO "m_member_love_panel" VALUES (47007,700,7);
+INSERT INTO "m_member_love_panel" VALUES (48007,720,7);
+INSERT INTO "m_member_love_panel" VALUES (49007,740,7);
+INSERT INTO "m_member_love_panel" VALUES (50007,760,7);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33007,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34007,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35007,6,200);
@@ -4969,7 +4960,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49007,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50007,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50007,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50007,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321007, 0, 33007, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322007, 1, 33007, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323007, 2, 33007, 2, 10);
@@ -5010,7 +5001,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392007, 1, 40007, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393007, 2, 40007, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394007, 3, 40007, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395007, 4, 40007, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401007, 0, 41007, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402007, 1, 41007, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403007, 2, 41007, 2, 10);
@@ -5061,7 +5052,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492007, 1, 50007, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493007, 2, 50007, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494007, 3, 50007, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495007, 4, 50007, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321007, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322007, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323007, 1002703, 10, 0, 69);
@@ -5152,26 +5143,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492007, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493007, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494007, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495007, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33008,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34008,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35008,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36008,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37008,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38008,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39008,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40008,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41008,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42008,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43008,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44008,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45008,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46008,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47008,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48008,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49008,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50008,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33008,420,8);
+INSERT INTO "m_member_love_panel" VALUES (34008,440,8);
+INSERT INTO "m_member_love_panel" VALUES (35008,460,8);
+INSERT INTO "m_member_love_panel" VALUES (36008,480,8);
+INSERT INTO "m_member_love_panel" VALUES (37008,500,8);
+INSERT INTO "m_member_love_panel" VALUES (38008,520,8);
+INSERT INTO "m_member_love_panel" VALUES (39008,540,8);
+INSERT INTO "m_member_love_panel" VALUES (40008,560,8);
+INSERT INTO "m_member_love_panel" VALUES (41008,580,8);
+INSERT INTO "m_member_love_panel" VALUES (42008,600,8);
+INSERT INTO "m_member_love_panel" VALUES (43008,620,8);
+INSERT INTO "m_member_love_panel" VALUES (44008,640,8);
+INSERT INTO "m_member_love_panel" VALUES (45008,660,8);
+INSERT INTO "m_member_love_panel" VALUES (46008,680,8);
+INSERT INTO "m_member_love_panel" VALUES (47008,700,8);
+INSERT INTO "m_member_love_panel" VALUES (48008,720,8);
+INSERT INTO "m_member_love_panel" VALUES (49008,740,8);
+INSERT INTO "m_member_love_panel" VALUES (50008,760,8);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33008,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34008,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35008,6,200);
@@ -5194,7 +5183,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49008,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50008,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50008,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50008,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321008, 0, 33008, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322008, 1, 33008, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323008, 2, 33008, 2, 10);
@@ -5235,7 +5224,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392008, 1, 40008, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393008, 2, 40008, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394008, 3, 40008, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395008, 4, 40008, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401008, 0, 41008, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402008, 1, 41008, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403008, 2, 41008, 2, 10);
@@ -5286,7 +5275,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492008, 1, 50008, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493008, 2, 50008, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494008, 3, 50008, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495008, 4, 50008, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321008, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322008, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323008, 1002703, 10, 0, 69);
@@ -5377,26 +5366,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492008, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493008, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494008, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495008, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33009,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34009,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35009,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36009,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37009,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38009,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39009,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40009,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41009,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42009,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43009,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44009,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45009,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46009,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47009,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48009,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49009,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50009,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33009,420,9);
+INSERT INTO "m_member_love_panel" VALUES (34009,440,9);
+INSERT INTO "m_member_love_panel" VALUES (35009,460,9);
+INSERT INTO "m_member_love_panel" VALUES (36009,480,9);
+INSERT INTO "m_member_love_panel" VALUES (37009,500,9);
+INSERT INTO "m_member_love_panel" VALUES (38009,520,9);
+INSERT INTO "m_member_love_panel" VALUES (39009,540,9);
+INSERT INTO "m_member_love_panel" VALUES (40009,560,9);
+INSERT INTO "m_member_love_panel" VALUES (41009,580,9);
+INSERT INTO "m_member_love_panel" VALUES (42009,600,9);
+INSERT INTO "m_member_love_panel" VALUES (43009,620,9);
+INSERT INTO "m_member_love_panel" VALUES (44009,640,9);
+INSERT INTO "m_member_love_panel" VALUES (45009,660,9);
+INSERT INTO "m_member_love_panel" VALUES (46009,680,9);
+INSERT INTO "m_member_love_panel" VALUES (47009,700,9);
+INSERT INTO "m_member_love_panel" VALUES (48009,720,9);
+INSERT INTO "m_member_love_panel" VALUES (49009,740,9);
+INSERT INTO "m_member_love_panel" VALUES (50009,760,9);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33009,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34009,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35009,6,200);
@@ -5419,7 +5406,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49009,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50009,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50009,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50009,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321009, 0, 33009, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322009, 1, 33009, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323009, 2, 33009, 2, 10);
@@ -5460,7 +5447,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392009, 1, 40009, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393009, 2, 40009, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394009, 3, 40009, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395009, 4, 40009, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401009, 0, 41009, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402009, 1, 41009, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403009, 2, 41009, 2, 10);
@@ -5511,7 +5498,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492009, 1, 50009, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493009, 2, 50009, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494009, 3, 50009, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495009, 4, 50009, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321009, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322009, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323009, 1002703, 10, 0, 69);
@@ -5602,26 +5589,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492009, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493009, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494009, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495009, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33101,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34101,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35101,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36101,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37101,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38101,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39101,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40101,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41101,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42101,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43101,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44101,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45101,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46101,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47101,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48101,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49101,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50101,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33101,420,101);
+INSERT INTO "m_member_love_panel" VALUES (34101,440,101);
+INSERT INTO "m_member_love_panel" VALUES (35101,460,101);
+INSERT INTO "m_member_love_panel" VALUES (36101,480,101);
+INSERT INTO "m_member_love_panel" VALUES (37101,500,101);
+INSERT INTO "m_member_love_panel" VALUES (38101,520,101);
+INSERT INTO "m_member_love_panel" VALUES (39101,540,101);
+INSERT INTO "m_member_love_panel" VALUES (40101,560,101);
+INSERT INTO "m_member_love_panel" VALUES (41101,580,101);
+INSERT INTO "m_member_love_panel" VALUES (42101,600,101);
+INSERT INTO "m_member_love_panel" VALUES (43101,620,101);
+INSERT INTO "m_member_love_panel" VALUES (44101,640,101);
+INSERT INTO "m_member_love_panel" VALUES (45101,660,101);
+INSERT INTO "m_member_love_panel" VALUES (46101,680,101);
+INSERT INTO "m_member_love_panel" VALUES (47101,700,101);
+INSERT INTO "m_member_love_panel" VALUES (48101,720,101);
+INSERT INTO "m_member_love_panel" VALUES (49101,740,101);
+INSERT INTO "m_member_love_panel" VALUES (50101,760,101);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33101,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34101,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35101,6,200);
@@ -5644,7 +5629,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49101,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50101,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50101,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50101,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321101, 0, 33101, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322101, 1, 33101, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323101, 2, 33101, 2, 10);
@@ -5685,7 +5670,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392101, 1, 40101, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393101, 2, 40101, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394101, 3, 40101, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395101, 4, 40101, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401101, 0, 41101, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402101, 1, 41101, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403101, 2, 41101, 2, 10);
@@ -5736,7 +5721,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492101, 1, 50101, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493101, 2, 50101, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494101, 3, 50101, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495101, 4, 50101, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321101, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322101, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323101, 1002703, 10, 0, 69);
@@ -5827,26 +5812,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492101, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493101, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494101, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495101, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33102,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34102,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35102,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36102,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37102,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38102,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39102,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40102,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41102,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42102,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43102,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44102,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45102,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46102,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47102,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48102,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49102,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50102,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33102,420,102);
+INSERT INTO "m_member_love_panel" VALUES (34102,440,102);
+INSERT INTO "m_member_love_panel" VALUES (35102,460,102);
+INSERT INTO "m_member_love_panel" VALUES (36102,480,102);
+INSERT INTO "m_member_love_panel" VALUES (37102,500,102);
+INSERT INTO "m_member_love_panel" VALUES (38102,520,102);
+INSERT INTO "m_member_love_panel" VALUES (39102,540,102);
+INSERT INTO "m_member_love_panel" VALUES (40102,560,102);
+INSERT INTO "m_member_love_panel" VALUES (41102,580,102);
+INSERT INTO "m_member_love_panel" VALUES (42102,600,102);
+INSERT INTO "m_member_love_panel" VALUES (43102,620,102);
+INSERT INTO "m_member_love_panel" VALUES (44102,640,102);
+INSERT INTO "m_member_love_panel" VALUES (45102,660,102);
+INSERT INTO "m_member_love_panel" VALUES (46102,680,102);
+INSERT INTO "m_member_love_panel" VALUES (47102,700,102);
+INSERT INTO "m_member_love_panel" VALUES (48102,720,102);
+INSERT INTO "m_member_love_panel" VALUES (49102,740,102);
+INSERT INTO "m_member_love_panel" VALUES (50102,760,102);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33102,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34102,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35102,6,200);
@@ -5869,7 +5852,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49102,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50102,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50102,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50102,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321102, 0, 33102, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322102, 1, 33102, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323102, 2, 33102, 2, 10);
@@ -5910,7 +5893,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392102, 1, 40102, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393102, 2, 40102, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394102, 3, 40102, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395102, 4, 40102, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401102, 0, 41102, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402102, 1, 41102, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403102, 2, 41102, 2, 10);
@@ -5961,7 +5944,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492102, 1, 50102, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493102, 2, 50102, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494102, 3, 50102, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495102, 4, 50102, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321102, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322102, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323102, 1002703, 10, 0, 69);
@@ -6052,26 +6035,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492102, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493102, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494102, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495102, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33103,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34103,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35103,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36103,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37103,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38103,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39103,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40103,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41103,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42103,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43103,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44103,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45103,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46103,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47103,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48103,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49103,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50103,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33103,420,103);
+INSERT INTO "m_member_love_panel" VALUES (34103,440,103);
+INSERT INTO "m_member_love_panel" VALUES (35103,460,103);
+INSERT INTO "m_member_love_panel" VALUES (36103,480,103);
+INSERT INTO "m_member_love_panel" VALUES (37103,500,103);
+INSERT INTO "m_member_love_panel" VALUES (38103,520,103);
+INSERT INTO "m_member_love_panel" VALUES (39103,540,103);
+INSERT INTO "m_member_love_panel" VALUES (40103,560,103);
+INSERT INTO "m_member_love_panel" VALUES (41103,580,103);
+INSERT INTO "m_member_love_panel" VALUES (42103,600,103);
+INSERT INTO "m_member_love_panel" VALUES (43103,620,103);
+INSERT INTO "m_member_love_panel" VALUES (44103,640,103);
+INSERT INTO "m_member_love_panel" VALUES (45103,660,103);
+INSERT INTO "m_member_love_panel" VALUES (46103,680,103);
+INSERT INTO "m_member_love_panel" VALUES (47103,700,103);
+INSERT INTO "m_member_love_panel" VALUES (48103,720,103);
+INSERT INTO "m_member_love_panel" VALUES (49103,740,103);
+INSERT INTO "m_member_love_panel" VALUES (50103,760,103);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33103,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34103,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35103,6,200);
@@ -6094,7 +6075,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49103,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50103,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50103,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50103,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321103, 0, 33103, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322103, 1, 33103, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323103, 2, 33103, 2, 10);
@@ -6135,7 +6116,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392103, 1, 40103, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393103, 2, 40103, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394103, 3, 40103, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395103, 4, 40103, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401103, 0, 41103, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402103, 1, 41103, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403103, 2, 41103, 2, 10);
@@ -6186,7 +6167,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492103, 1, 50103, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493103, 2, 50103, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494103, 3, 50103, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495103, 4, 50103, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321103, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322103, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323103, 1002703, 10, 0, 69);
@@ -6277,26 +6258,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492103, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493103, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494103, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495103, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33104,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34104,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35104,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36104,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37104,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38104,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39104,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40104,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41104,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42104,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43104,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44104,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45104,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46104,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47104,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48104,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49104,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50104,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33104,420,104);
+INSERT INTO "m_member_love_panel" VALUES (34104,440,104);
+INSERT INTO "m_member_love_panel" VALUES (35104,460,104);
+INSERT INTO "m_member_love_panel" VALUES (36104,480,104);
+INSERT INTO "m_member_love_panel" VALUES (37104,500,104);
+INSERT INTO "m_member_love_panel" VALUES (38104,520,104);
+INSERT INTO "m_member_love_panel" VALUES (39104,540,104);
+INSERT INTO "m_member_love_panel" VALUES (40104,560,104);
+INSERT INTO "m_member_love_panel" VALUES (41104,580,104);
+INSERT INTO "m_member_love_panel" VALUES (42104,600,104);
+INSERT INTO "m_member_love_panel" VALUES (43104,620,104);
+INSERT INTO "m_member_love_panel" VALUES (44104,640,104);
+INSERT INTO "m_member_love_panel" VALUES (45104,660,104);
+INSERT INTO "m_member_love_panel" VALUES (46104,680,104);
+INSERT INTO "m_member_love_panel" VALUES (47104,700,104);
+INSERT INTO "m_member_love_panel" VALUES (48104,720,104);
+INSERT INTO "m_member_love_panel" VALUES (49104,740,104);
+INSERT INTO "m_member_love_panel" VALUES (50104,760,104);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33104,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34104,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35104,6,200);
@@ -6319,7 +6298,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49104,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50104,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50104,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50104,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321104, 0, 33104, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322104, 1, 33104, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323104, 2, 33104, 2, 10);
@@ -6360,7 +6339,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392104, 1, 40104, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393104, 2, 40104, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394104, 3, 40104, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395104, 4, 40104, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401104, 0, 41104, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402104, 1, 41104, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403104, 2, 41104, 2, 10);
@@ -6411,7 +6390,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492104, 1, 50104, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493104, 2, 50104, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494104, 3, 50104, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495104, 4, 50104, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321104, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322104, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323104, 1002703, 10, 0, 69);
@@ -6502,26 +6481,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492104, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493104, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494104, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495104, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33105,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34105,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35105,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36105,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37105,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38105,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39105,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40105,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41105,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42105,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43105,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44105,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45105,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46105,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47105,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48105,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49105,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50105,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33105,420,105);
+INSERT INTO "m_member_love_panel" VALUES (34105,440,105);
+INSERT INTO "m_member_love_panel" VALUES (35105,460,105);
+INSERT INTO "m_member_love_panel" VALUES (36105,480,105);
+INSERT INTO "m_member_love_panel" VALUES (37105,500,105);
+INSERT INTO "m_member_love_panel" VALUES (38105,520,105);
+INSERT INTO "m_member_love_panel" VALUES (39105,540,105);
+INSERT INTO "m_member_love_panel" VALUES (40105,560,105);
+INSERT INTO "m_member_love_panel" VALUES (41105,580,105);
+INSERT INTO "m_member_love_panel" VALUES (42105,600,105);
+INSERT INTO "m_member_love_panel" VALUES (43105,620,105);
+INSERT INTO "m_member_love_panel" VALUES (44105,640,105);
+INSERT INTO "m_member_love_panel" VALUES (45105,660,105);
+INSERT INTO "m_member_love_panel" VALUES (46105,680,105);
+INSERT INTO "m_member_love_panel" VALUES (47105,700,105);
+INSERT INTO "m_member_love_panel" VALUES (48105,720,105);
+INSERT INTO "m_member_love_panel" VALUES (49105,740,105);
+INSERT INTO "m_member_love_panel" VALUES (50105,760,105);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33105,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34105,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35105,6,200);
@@ -6544,7 +6521,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49105,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50105,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50105,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50105,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321105, 0, 33105, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322105, 1, 33105, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323105, 2, 33105, 2, 10);
@@ -6585,7 +6562,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392105, 1, 40105, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393105, 2, 40105, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394105, 3, 40105, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395105, 4, 40105, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401105, 0, 41105, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402105, 1, 41105, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403105, 2, 41105, 2, 10);
@@ -6636,7 +6613,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492105, 1, 50105, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493105, 2, 50105, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494105, 3, 50105, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495105, 4, 50105, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321105, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322105, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323105, 1002703, 10, 0, 69);
@@ -6727,26 +6704,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492105, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493105, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494105, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495105, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33106,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34106,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35106,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36106,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37106,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38106,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39106,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40106,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41106,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42106,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43106,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44106,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45106,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46106,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47106,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48106,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49106,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50106,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33106,420,106);
+INSERT INTO "m_member_love_panel" VALUES (34106,440,106);
+INSERT INTO "m_member_love_panel" VALUES (35106,460,106);
+INSERT INTO "m_member_love_panel" VALUES (36106,480,106);
+INSERT INTO "m_member_love_panel" VALUES (37106,500,106);
+INSERT INTO "m_member_love_panel" VALUES (38106,520,106);
+INSERT INTO "m_member_love_panel" VALUES (39106,540,106);
+INSERT INTO "m_member_love_panel" VALUES (40106,560,106);
+INSERT INTO "m_member_love_panel" VALUES (41106,580,106);
+INSERT INTO "m_member_love_panel" VALUES (42106,600,106);
+INSERT INTO "m_member_love_panel" VALUES (43106,620,106);
+INSERT INTO "m_member_love_panel" VALUES (44106,640,106);
+INSERT INTO "m_member_love_panel" VALUES (45106,660,106);
+INSERT INTO "m_member_love_panel" VALUES (46106,680,106);
+INSERT INTO "m_member_love_panel" VALUES (47106,700,106);
+INSERT INTO "m_member_love_panel" VALUES (48106,720,106);
+INSERT INTO "m_member_love_panel" VALUES (49106,740,106);
+INSERT INTO "m_member_love_panel" VALUES (50106,760,106);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33106,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34106,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35106,6,200);
@@ -6769,7 +6744,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49106,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50106,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50106,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50106,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321106, 0, 33106, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322106, 1, 33106, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323106, 2, 33106, 2, 10);
@@ -6810,7 +6785,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392106, 1, 40106, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393106, 2, 40106, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394106, 3, 40106, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395106, 4, 40106, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401106, 0, 41106, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402106, 1, 41106, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403106, 2, 41106, 2, 10);
@@ -6861,7 +6836,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492106, 1, 50106, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493106, 2, 50106, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494106, 3, 50106, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495106, 4, 50106, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321106, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322106, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323106, 1002703, 10, 0, 69);
@@ -6952,26 +6927,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492106, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493106, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494106, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495106, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33107,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34107,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35107,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36107,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37107,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38107,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39107,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40107,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41107,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42107,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43107,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44107,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45107,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46107,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47107,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48107,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49107,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50107,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33107,420,107);
+INSERT INTO "m_member_love_panel" VALUES (34107,440,107);
+INSERT INTO "m_member_love_panel" VALUES (35107,460,107);
+INSERT INTO "m_member_love_panel" VALUES (36107,480,107);
+INSERT INTO "m_member_love_panel" VALUES (37107,500,107);
+INSERT INTO "m_member_love_panel" VALUES (38107,520,107);
+INSERT INTO "m_member_love_panel" VALUES (39107,540,107);
+INSERT INTO "m_member_love_panel" VALUES (40107,560,107);
+INSERT INTO "m_member_love_panel" VALUES (41107,580,107);
+INSERT INTO "m_member_love_panel" VALUES (42107,600,107);
+INSERT INTO "m_member_love_panel" VALUES (43107,620,107);
+INSERT INTO "m_member_love_panel" VALUES (44107,640,107);
+INSERT INTO "m_member_love_panel" VALUES (45107,660,107);
+INSERT INTO "m_member_love_panel" VALUES (46107,680,107);
+INSERT INTO "m_member_love_panel" VALUES (47107,700,107);
+INSERT INTO "m_member_love_panel" VALUES (48107,720,107);
+INSERT INTO "m_member_love_panel" VALUES (49107,740,107);
+INSERT INTO "m_member_love_panel" VALUES (50107,760,107);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33107,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34107,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35107,6,200);
@@ -6994,7 +6967,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49107,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50107,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50107,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50107,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321107, 0, 33107, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322107, 1, 33107, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323107, 2, 33107, 2, 10);
@@ -7035,7 +7008,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392107, 1, 40107, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393107, 2, 40107, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394107, 3, 40107, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395107, 4, 40107, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401107, 0, 41107, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402107, 1, 41107, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403107, 2, 41107, 2, 10);
@@ -7086,7 +7059,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492107, 1, 50107, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493107, 2, 50107, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494107, 3, 50107, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495107, 4, 50107, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321107, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322107, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323107, 1002703, 10, 0, 69);
@@ -7177,26 +7150,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492107, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493107, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494107, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495107, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33108,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34108,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35108,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36108,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37108,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38108,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39108,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40108,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41108,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42108,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43108,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44108,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45108,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46108,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47108,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48108,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49108,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50108,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33108,420,108);
+INSERT INTO "m_member_love_panel" VALUES (34108,440,108);
+INSERT INTO "m_member_love_panel" VALUES (35108,460,108);
+INSERT INTO "m_member_love_panel" VALUES (36108,480,108);
+INSERT INTO "m_member_love_panel" VALUES (37108,500,108);
+INSERT INTO "m_member_love_panel" VALUES (38108,520,108);
+INSERT INTO "m_member_love_panel" VALUES (39108,540,108);
+INSERT INTO "m_member_love_panel" VALUES (40108,560,108);
+INSERT INTO "m_member_love_panel" VALUES (41108,580,108);
+INSERT INTO "m_member_love_panel" VALUES (42108,600,108);
+INSERT INTO "m_member_love_panel" VALUES (43108,620,108);
+INSERT INTO "m_member_love_panel" VALUES (44108,640,108);
+INSERT INTO "m_member_love_panel" VALUES (45108,660,108);
+INSERT INTO "m_member_love_panel" VALUES (46108,680,108);
+INSERT INTO "m_member_love_panel" VALUES (47108,700,108);
+INSERT INTO "m_member_love_panel" VALUES (48108,720,108);
+INSERT INTO "m_member_love_panel" VALUES (49108,740,108);
+INSERT INTO "m_member_love_panel" VALUES (50108,760,108);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33108,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34108,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35108,6,200);
@@ -7219,7 +7190,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49108,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50108,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50108,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50108,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321108, 0, 33108, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322108, 1, 33108, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323108, 2, 33108, 2, 10);
@@ -7260,7 +7231,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392108, 1, 40108, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393108, 2, 40108, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394108, 3, 40108, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395108, 4, 40108, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401108, 0, 41108, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402108, 1, 41108, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403108, 2, 41108, 2, 10);
@@ -7311,7 +7282,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492108, 1, 50108, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493108, 2, 50108, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494108, 3, 50108, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495108, 4, 50108, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321108, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322108, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323108, 1002703, 10, 0, 69);
@@ -7402,26 +7373,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492108, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493108, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494108, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495108, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33109,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34109,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35109,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36109,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37109,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38109,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39109,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40109,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41109,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42109,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43109,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44109,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45109,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46109,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47109,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48109,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49109,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50109,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33109,420,109);
+INSERT INTO "m_member_love_panel" VALUES (34109,440,109);
+INSERT INTO "m_member_love_panel" VALUES (35109,460,109);
+INSERT INTO "m_member_love_panel" VALUES (36109,480,109);
+INSERT INTO "m_member_love_panel" VALUES (37109,500,109);
+INSERT INTO "m_member_love_panel" VALUES (38109,520,109);
+INSERT INTO "m_member_love_panel" VALUES (39109,540,109);
+INSERT INTO "m_member_love_panel" VALUES (40109,560,109);
+INSERT INTO "m_member_love_panel" VALUES (41109,580,109);
+INSERT INTO "m_member_love_panel" VALUES (42109,600,109);
+INSERT INTO "m_member_love_panel" VALUES (43109,620,109);
+INSERT INTO "m_member_love_panel" VALUES (44109,640,109);
+INSERT INTO "m_member_love_panel" VALUES (45109,660,109);
+INSERT INTO "m_member_love_panel" VALUES (46109,680,109);
+INSERT INTO "m_member_love_panel" VALUES (47109,700,109);
+INSERT INTO "m_member_love_panel" VALUES (48109,720,109);
+INSERT INTO "m_member_love_panel" VALUES (49109,740,109);
+INSERT INTO "m_member_love_panel" VALUES (50109,760,109);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33109,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34109,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35109,6,200);
@@ -7444,7 +7413,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49109,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50109,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50109,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50109,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321109, 0, 33109, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322109, 1, 33109, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323109, 2, 33109, 2, 10);
@@ -7485,7 +7454,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392109, 1, 40109, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393109, 2, 40109, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394109, 3, 40109, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395109, 4, 40109, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401109, 0, 41109, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402109, 1, 41109, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403109, 2, 41109, 2, 10);
@@ -7536,7 +7505,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492109, 1, 50109, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493109, 2, 50109, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494109, 3, 50109, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495109, 4, 50109, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321109, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322109, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323109, 1002703, 10, 0, 69);
@@ -7627,26 +7596,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492109, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493109, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494109, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495109, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33201,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34201,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35201,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36201,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37201,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38201,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39201,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40201,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41201,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42201,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43201,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44201,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45201,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46201,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47201,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48201,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49201,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50201,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33201,420,201);
+INSERT INTO "m_member_love_panel" VALUES (34201,440,201);
+INSERT INTO "m_member_love_panel" VALUES (35201,460,201);
+INSERT INTO "m_member_love_panel" VALUES (36201,480,201);
+INSERT INTO "m_member_love_panel" VALUES (37201,500,201);
+INSERT INTO "m_member_love_panel" VALUES (38201,520,201);
+INSERT INTO "m_member_love_panel" VALUES (39201,540,201);
+INSERT INTO "m_member_love_panel" VALUES (40201,560,201);
+INSERT INTO "m_member_love_panel" VALUES (41201,580,201);
+INSERT INTO "m_member_love_panel" VALUES (42201,600,201);
+INSERT INTO "m_member_love_panel" VALUES (43201,620,201);
+INSERT INTO "m_member_love_panel" VALUES (44201,640,201);
+INSERT INTO "m_member_love_panel" VALUES (45201,660,201);
+INSERT INTO "m_member_love_panel" VALUES (46201,680,201);
+INSERT INTO "m_member_love_panel" VALUES (47201,700,201);
+INSERT INTO "m_member_love_panel" VALUES (48201,720,201);
+INSERT INTO "m_member_love_panel" VALUES (49201,740,201);
+INSERT INTO "m_member_love_panel" VALUES (50201,760,201);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33201,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34201,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35201,6,200);
@@ -7669,7 +7636,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49201,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50201,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50201,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50201,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321201, 0, 33201, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322201, 1, 33201, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323201, 2, 33201, 2, 10);
@@ -7710,7 +7677,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392201, 1, 40201, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393201, 2, 40201, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394201, 3, 40201, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395201, 4, 40201, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401201, 0, 41201, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402201, 1, 41201, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403201, 2, 41201, 2, 10);
@@ -7761,7 +7728,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492201, 1, 50201, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493201, 2, 50201, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494201, 3, 50201, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495201, 4, 50201, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321201, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322201, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323201, 1002703, 10, 0, 69);
@@ -7852,26 +7819,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492201, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493201, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494201, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495201, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33202,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34202,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35202,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36202,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37202,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38202,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39202,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40202,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41202,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42202,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43202,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44202,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45202,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46202,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47202,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48202,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49202,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50202,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33202,420,202);
+INSERT INTO "m_member_love_panel" VALUES (34202,440,202);
+INSERT INTO "m_member_love_panel" VALUES (35202,460,202);
+INSERT INTO "m_member_love_panel" VALUES (36202,480,202);
+INSERT INTO "m_member_love_panel" VALUES (37202,500,202);
+INSERT INTO "m_member_love_panel" VALUES (38202,520,202);
+INSERT INTO "m_member_love_panel" VALUES (39202,540,202);
+INSERT INTO "m_member_love_panel" VALUES (40202,560,202);
+INSERT INTO "m_member_love_panel" VALUES (41202,580,202);
+INSERT INTO "m_member_love_panel" VALUES (42202,600,202);
+INSERT INTO "m_member_love_panel" VALUES (43202,620,202);
+INSERT INTO "m_member_love_panel" VALUES (44202,640,202);
+INSERT INTO "m_member_love_panel" VALUES (45202,660,202);
+INSERT INTO "m_member_love_panel" VALUES (46202,680,202);
+INSERT INTO "m_member_love_panel" VALUES (47202,700,202);
+INSERT INTO "m_member_love_panel" VALUES (48202,720,202);
+INSERT INTO "m_member_love_panel" VALUES (49202,740,202);
+INSERT INTO "m_member_love_panel" VALUES (50202,760,202);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33202,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34202,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35202,6,200);
@@ -7894,7 +7859,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49202,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50202,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50202,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50202,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321202, 0, 33202, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322202, 1, 33202, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323202, 2, 33202, 2, 10);
@@ -7935,7 +7900,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392202, 1, 40202, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393202, 2, 40202, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394202, 3, 40202, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395202, 4, 40202, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401202, 0, 41202, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402202, 1, 41202, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403202, 2, 41202, 2, 10);
@@ -7986,7 +7951,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492202, 1, 50202, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493202, 2, 50202, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494202, 3, 50202, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495202, 4, 50202, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321202, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322202, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323202, 1002703, 10, 0, 69);
@@ -8077,26 +8042,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492202, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493202, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494202, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495202, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33203,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34203,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35203,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36203,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37203,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38203,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39203,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40203,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41203,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42203,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43203,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44203,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45203,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46203,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47203,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48203,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49203,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50203,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33203,420,203);
+INSERT INTO "m_member_love_panel" VALUES (34203,440,203);
+INSERT INTO "m_member_love_panel" VALUES (35203,460,203);
+INSERT INTO "m_member_love_panel" VALUES (36203,480,203);
+INSERT INTO "m_member_love_panel" VALUES (37203,500,203);
+INSERT INTO "m_member_love_panel" VALUES (38203,520,203);
+INSERT INTO "m_member_love_panel" VALUES (39203,540,203);
+INSERT INTO "m_member_love_panel" VALUES (40203,560,203);
+INSERT INTO "m_member_love_panel" VALUES (41203,580,203);
+INSERT INTO "m_member_love_panel" VALUES (42203,600,203);
+INSERT INTO "m_member_love_panel" VALUES (43203,620,203);
+INSERT INTO "m_member_love_panel" VALUES (44203,640,203);
+INSERT INTO "m_member_love_panel" VALUES (45203,660,203);
+INSERT INTO "m_member_love_panel" VALUES (46203,680,203);
+INSERT INTO "m_member_love_panel" VALUES (47203,700,203);
+INSERT INTO "m_member_love_panel" VALUES (48203,720,203);
+INSERT INTO "m_member_love_panel" VALUES (49203,740,203);
+INSERT INTO "m_member_love_panel" VALUES (50203,760,203);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33203,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34203,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35203,6,200);
@@ -8119,7 +8082,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49203,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50203,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50203,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50203,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321203, 0, 33203, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322203, 1, 33203, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323203, 2, 33203, 2, 10);
@@ -8160,7 +8123,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392203, 1, 40203, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393203, 2, 40203, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394203, 3, 40203, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395203, 4, 40203, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401203, 0, 41203, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402203, 1, 41203, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403203, 2, 41203, 2, 10);
@@ -8211,7 +8174,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492203, 1, 50203, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493203, 2, 50203, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494203, 3, 50203, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495203, 4, 50203, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321203, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322203, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323203, 1002703, 10, 0, 69);
@@ -8302,26 +8265,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492203, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493203, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494203, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495203, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33204,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34204,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35204,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36204,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37204,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38204,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39204,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40204,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41204,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42204,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43204,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44204,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45204,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46204,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47204,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48204,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49204,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50204,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33204,420,204);
+INSERT INTO "m_member_love_panel" VALUES (34204,440,204);
+INSERT INTO "m_member_love_panel" VALUES (35204,460,204);
+INSERT INTO "m_member_love_panel" VALUES (36204,480,204);
+INSERT INTO "m_member_love_panel" VALUES (37204,500,204);
+INSERT INTO "m_member_love_panel" VALUES (38204,520,204);
+INSERT INTO "m_member_love_panel" VALUES (39204,540,204);
+INSERT INTO "m_member_love_panel" VALUES (40204,560,204);
+INSERT INTO "m_member_love_panel" VALUES (41204,580,204);
+INSERT INTO "m_member_love_panel" VALUES (42204,600,204);
+INSERT INTO "m_member_love_panel" VALUES (43204,620,204);
+INSERT INTO "m_member_love_panel" VALUES (44204,640,204);
+INSERT INTO "m_member_love_panel" VALUES (45204,660,204);
+INSERT INTO "m_member_love_panel" VALUES (46204,680,204);
+INSERT INTO "m_member_love_panel" VALUES (47204,700,204);
+INSERT INTO "m_member_love_panel" VALUES (48204,720,204);
+INSERT INTO "m_member_love_panel" VALUES (49204,740,204);
+INSERT INTO "m_member_love_panel" VALUES (50204,760,204);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33204,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34204,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35204,6,200);
@@ -8344,7 +8305,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49204,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50204,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50204,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50204,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321204, 0, 33204, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322204, 1, 33204, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323204, 2, 33204, 2, 10);
@@ -8385,7 +8346,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392204, 1, 40204, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393204, 2, 40204, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394204, 3, 40204, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395204, 4, 40204, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401204, 0, 41204, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402204, 1, 41204, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403204, 2, 41204, 2, 10);
@@ -8436,7 +8397,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492204, 1, 50204, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493204, 2, 50204, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494204, 3, 50204, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495204, 4, 50204, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321204, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322204, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323204, 1002703, 10, 0, 69);
@@ -8527,26 +8488,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492204, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493204, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494204, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495204, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33205,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34205,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35205,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36205,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37205,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38205,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39205,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40205,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41205,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42205,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43205,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44205,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45205,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46205,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47205,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48205,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49205,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50205,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33205,420,205);
+INSERT INTO "m_member_love_panel" VALUES (34205,440,205);
+INSERT INTO "m_member_love_panel" VALUES (35205,460,205);
+INSERT INTO "m_member_love_panel" VALUES (36205,480,205);
+INSERT INTO "m_member_love_panel" VALUES (37205,500,205);
+INSERT INTO "m_member_love_panel" VALUES (38205,520,205);
+INSERT INTO "m_member_love_panel" VALUES (39205,540,205);
+INSERT INTO "m_member_love_panel" VALUES (40205,560,205);
+INSERT INTO "m_member_love_panel" VALUES (41205,580,205);
+INSERT INTO "m_member_love_panel" VALUES (42205,600,205);
+INSERT INTO "m_member_love_panel" VALUES (43205,620,205);
+INSERT INTO "m_member_love_panel" VALUES (44205,640,205);
+INSERT INTO "m_member_love_panel" VALUES (45205,660,205);
+INSERT INTO "m_member_love_panel" VALUES (46205,680,205);
+INSERT INTO "m_member_love_panel" VALUES (47205,700,205);
+INSERT INTO "m_member_love_panel" VALUES (48205,720,205);
+INSERT INTO "m_member_love_panel" VALUES (49205,740,205);
+INSERT INTO "m_member_love_panel" VALUES (50205,760,205);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33205,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34205,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35205,6,200);
@@ -8569,7 +8528,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49205,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50205,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50205,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50205,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321205, 0, 33205, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322205, 1, 33205, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323205, 2, 33205, 2, 10);
@@ -8610,7 +8569,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392205, 1, 40205, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393205, 2, 40205, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394205, 3, 40205, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395205, 4, 40205, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401205, 0, 41205, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402205, 1, 41205, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403205, 2, 41205, 2, 10);
@@ -8661,7 +8620,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492205, 1, 50205, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493205, 2, 50205, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494205, 3, 50205, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495205, 4, 50205, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321205, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322205, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323205, 1002703, 10, 0, 69);
@@ -8752,26 +8711,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492205, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493205, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494205, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495205, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33206,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34206,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35206,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36206,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37206,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38206,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39206,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40206,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41206,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42206,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43206,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44206,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45206,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46206,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47206,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48206,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49206,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50206,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33206,420,206);
+INSERT INTO "m_member_love_panel" VALUES (34206,440,206);
+INSERT INTO "m_member_love_panel" VALUES (35206,460,206);
+INSERT INTO "m_member_love_panel" VALUES (36206,480,206);
+INSERT INTO "m_member_love_panel" VALUES (37206,500,206);
+INSERT INTO "m_member_love_panel" VALUES (38206,520,206);
+INSERT INTO "m_member_love_panel" VALUES (39206,540,206);
+INSERT INTO "m_member_love_panel" VALUES (40206,560,206);
+INSERT INTO "m_member_love_panel" VALUES (41206,580,206);
+INSERT INTO "m_member_love_panel" VALUES (42206,600,206);
+INSERT INTO "m_member_love_panel" VALUES (43206,620,206);
+INSERT INTO "m_member_love_panel" VALUES (44206,640,206);
+INSERT INTO "m_member_love_panel" VALUES (45206,660,206);
+INSERT INTO "m_member_love_panel" VALUES (46206,680,206);
+INSERT INTO "m_member_love_panel" VALUES (47206,700,206);
+INSERT INTO "m_member_love_panel" VALUES (48206,720,206);
+INSERT INTO "m_member_love_panel" VALUES (49206,740,206);
+INSERT INTO "m_member_love_panel" VALUES (50206,760,206);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33206,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34206,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35206,6,200);
@@ -8794,7 +8751,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49206,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50206,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50206,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50206,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321206, 0, 33206, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322206, 1, 33206, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323206, 2, 33206, 2, 10);
@@ -8835,7 +8792,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392206, 1, 40206, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393206, 2, 40206, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394206, 3, 40206, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395206, 4, 40206, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401206, 0, 41206, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402206, 1, 41206, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403206, 2, 41206, 2, 10);
@@ -8886,7 +8843,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492206, 1, 50206, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493206, 2, 50206, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494206, 3, 50206, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495206, 4, 50206, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321206, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322206, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323206, 1002703, 10, 0, 69);
@@ -8977,26 +8934,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492206, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493206, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494206, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495206, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33207,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34207,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35207,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36207,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37207,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38207,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39207,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40207,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41207,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42207,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43207,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44207,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45207,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46207,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47207,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48207,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49207,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50207,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33207,420,207);
+INSERT INTO "m_member_love_panel" VALUES (34207,440,207);
+INSERT INTO "m_member_love_panel" VALUES (35207,460,207);
+INSERT INTO "m_member_love_panel" VALUES (36207,480,207);
+INSERT INTO "m_member_love_panel" VALUES (37207,500,207);
+INSERT INTO "m_member_love_panel" VALUES (38207,520,207);
+INSERT INTO "m_member_love_panel" VALUES (39207,540,207);
+INSERT INTO "m_member_love_panel" VALUES (40207,560,207);
+INSERT INTO "m_member_love_panel" VALUES (41207,580,207);
+INSERT INTO "m_member_love_panel" VALUES (42207,600,207);
+INSERT INTO "m_member_love_panel" VALUES (43207,620,207);
+INSERT INTO "m_member_love_panel" VALUES (44207,640,207);
+INSERT INTO "m_member_love_panel" VALUES (45207,660,207);
+INSERT INTO "m_member_love_panel" VALUES (46207,680,207);
+INSERT INTO "m_member_love_panel" VALUES (47207,700,207);
+INSERT INTO "m_member_love_panel" VALUES (48207,720,207);
+INSERT INTO "m_member_love_panel" VALUES (49207,740,207);
+INSERT INTO "m_member_love_panel" VALUES (50207,760,207);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33207,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34207,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35207,6,200);
@@ -9019,7 +8974,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49207,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50207,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50207,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50207,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321207, 0, 33207, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322207, 1, 33207, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323207, 2, 33207, 2, 10);
@@ -9060,7 +9015,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392207, 1, 40207, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393207, 2, 40207, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394207, 3, 40207, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395207, 4, 40207, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401207, 0, 41207, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402207, 1, 41207, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403207, 2, 41207, 2, 10);
@@ -9111,7 +9066,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492207, 1, 50207, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493207, 2, 50207, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494207, 3, 50207, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495207, 4, 50207, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321207, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322207, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323207, 1002703, 10, 0, 69);
@@ -9202,26 +9157,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492207, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493207, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494207, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495207, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33208,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34208,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35208,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36208,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37208,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38208,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39208,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40208,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41208,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42208,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43208,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44208,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45208,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46208,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47208,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48208,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49208,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50208,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33208,420,208);
+INSERT INTO "m_member_love_panel" VALUES (34208,440,208);
+INSERT INTO "m_member_love_panel" VALUES (35208,460,208);
+INSERT INTO "m_member_love_panel" VALUES (36208,480,208);
+INSERT INTO "m_member_love_panel" VALUES (37208,500,208);
+INSERT INTO "m_member_love_panel" VALUES (38208,520,208);
+INSERT INTO "m_member_love_panel" VALUES (39208,540,208);
+INSERT INTO "m_member_love_panel" VALUES (40208,560,208);
+INSERT INTO "m_member_love_panel" VALUES (41208,580,208);
+INSERT INTO "m_member_love_panel" VALUES (42208,600,208);
+INSERT INTO "m_member_love_panel" VALUES (43208,620,208);
+INSERT INTO "m_member_love_panel" VALUES (44208,640,208);
+INSERT INTO "m_member_love_panel" VALUES (45208,660,208);
+INSERT INTO "m_member_love_panel" VALUES (46208,680,208);
+INSERT INTO "m_member_love_panel" VALUES (47208,700,208);
+INSERT INTO "m_member_love_panel" VALUES (48208,720,208);
+INSERT INTO "m_member_love_panel" VALUES (49208,740,208);
+INSERT INTO "m_member_love_panel" VALUES (50208,760,208);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33208,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34208,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35208,6,200);
@@ -9244,7 +9197,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49208,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50208,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50208,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50208,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321208, 0, 33208, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322208, 1, 33208, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323208, 2, 33208, 2, 10);
@@ -9285,7 +9238,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392208, 1, 40208, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393208, 2, 40208, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394208, 3, 40208, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395208, 4, 40208, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401208, 0, 41208, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402208, 1, 41208, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403208, 2, 41208, 2, 10);
@@ -9336,7 +9289,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492208, 1, 50208, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493208, 2, 50208, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494208, 3, 50208, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495208, 4, 50208, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321208, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322208, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323208, 1002703, 10, 0, 69);
@@ -9427,26 +9380,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492208, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493208, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494208, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495208, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33209,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34209,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35209,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36209,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37209,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38209,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39209,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40209,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41209,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42209,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43209,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44209,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45209,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46209,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47209,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48209,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49209,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50209,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33209,420,209);
+INSERT INTO "m_member_love_panel" VALUES (34209,440,209);
+INSERT INTO "m_member_love_panel" VALUES (35209,460,209);
+INSERT INTO "m_member_love_panel" VALUES (36209,480,209);
+INSERT INTO "m_member_love_panel" VALUES (37209,500,209);
+INSERT INTO "m_member_love_panel" VALUES (38209,520,209);
+INSERT INTO "m_member_love_panel" VALUES (39209,540,209);
+INSERT INTO "m_member_love_panel" VALUES (40209,560,209);
+INSERT INTO "m_member_love_panel" VALUES (41209,580,209);
+INSERT INTO "m_member_love_panel" VALUES (42209,600,209);
+INSERT INTO "m_member_love_panel" VALUES (43209,620,209);
+INSERT INTO "m_member_love_panel" VALUES (44209,640,209);
+INSERT INTO "m_member_love_panel" VALUES (45209,660,209);
+INSERT INTO "m_member_love_panel" VALUES (46209,680,209);
+INSERT INTO "m_member_love_panel" VALUES (47209,700,209);
+INSERT INTO "m_member_love_panel" VALUES (48209,720,209);
+INSERT INTO "m_member_love_panel" VALUES (49209,740,209);
+INSERT INTO "m_member_love_panel" VALUES (50209,760,209);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33209,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34209,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35209,6,200);
@@ -9469,7 +9420,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49209,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50209,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50209,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50209,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321209, 0, 33209, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322209, 1, 33209, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323209, 2, 33209, 2, 10);
@@ -9510,7 +9461,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392209, 1, 40209, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393209, 2, 40209, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394209, 3, 40209, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395209, 4, 40209, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401209, 0, 41209, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402209, 1, 41209, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403209, 2, 41209, 2, 10);
@@ -9561,7 +9512,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492209, 1, 50209, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493209, 2, 50209, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494209, 3, 50209, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495209, 4, 50209, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321209, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322209, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323209, 1002703, 10, 0, 69);
@@ -9652,26 +9603,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492209, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493209, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494209, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495209, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33210,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34210,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35210,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36210,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37210,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38210,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39210,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40210,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41210,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42210,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43210,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44210,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45210,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46210,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47210,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48210,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49210,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50210,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33210,420,210);
+INSERT INTO "m_member_love_panel" VALUES (34210,440,210);
+INSERT INTO "m_member_love_panel" VALUES (35210,460,210);
+INSERT INTO "m_member_love_panel" VALUES (36210,480,210);
+INSERT INTO "m_member_love_panel" VALUES (37210,500,210);
+INSERT INTO "m_member_love_panel" VALUES (38210,520,210);
+INSERT INTO "m_member_love_panel" VALUES (39210,540,210);
+INSERT INTO "m_member_love_panel" VALUES (40210,560,210);
+INSERT INTO "m_member_love_panel" VALUES (41210,580,210);
+INSERT INTO "m_member_love_panel" VALUES (42210,600,210);
+INSERT INTO "m_member_love_panel" VALUES (43210,620,210);
+INSERT INTO "m_member_love_panel" VALUES (44210,640,210);
+INSERT INTO "m_member_love_panel" VALUES (45210,660,210);
+INSERT INTO "m_member_love_panel" VALUES (46210,680,210);
+INSERT INTO "m_member_love_panel" VALUES (47210,700,210);
+INSERT INTO "m_member_love_panel" VALUES (48210,720,210);
+INSERT INTO "m_member_love_panel" VALUES (49210,740,210);
+INSERT INTO "m_member_love_panel" VALUES (50210,760,210);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33210,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34210,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35210,6,200);
@@ -9694,7 +9643,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49210,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50210,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50210,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50210,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321210, 0, 33210, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322210, 1, 33210, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323210, 2, 33210, 2, 10);
@@ -9735,7 +9684,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392210, 1, 40210, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393210, 2, 40210, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394210, 3, 40210, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395210, 4, 40210, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401210, 0, 41210, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402210, 1, 41210, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403210, 2, 41210, 2, 10);
@@ -9786,7 +9735,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492210, 1, 50210, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493210, 2, 50210, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494210, 3, 50210, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495210, 4, 50210, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321210, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322210, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323210, 1002703, 10, 0, 69);
@@ -9877,26 +9826,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492210, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493210, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494210, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495210, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33211,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34211,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35211,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36211,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37211,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38211,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39211,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40211,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41211,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42211,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43211,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44211,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45211,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46211,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47211,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48211,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49211,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50211,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33211,420,211);
+INSERT INTO "m_member_love_panel" VALUES (34211,440,211);
+INSERT INTO "m_member_love_panel" VALUES (35211,460,211);
+INSERT INTO "m_member_love_panel" VALUES (36211,480,211);
+INSERT INTO "m_member_love_panel" VALUES (37211,500,211);
+INSERT INTO "m_member_love_panel" VALUES (38211,520,211);
+INSERT INTO "m_member_love_panel" VALUES (39211,540,211);
+INSERT INTO "m_member_love_panel" VALUES (40211,560,211);
+INSERT INTO "m_member_love_panel" VALUES (41211,580,211);
+INSERT INTO "m_member_love_panel" VALUES (42211,600,211);
+INSERT INTO "m_member_love_panel" VALUES (43211,620,211);
+INSERT INTO "m_member_love_panel" VALUES (44211,640,211);
+INSERT INTO "m_member_love_panel" VALUES (45211,660,211);
+INSERT INTO "m_member_love_panel" VALUES (46211,680,211);
+INSERT INTO "m_member_love_panel" VALUES (47211,700,211);
+INSERT INTO "m_member_love_panel" VALUES (48211,720,211);
+INSERT INTO "m_member_love_panel" VALUES (49211,740,211);
+INSERT INTO "m_member_love_panel" VALUES (50211,760,211);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33211,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34211,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35211,6,200);
@@ -9919,7 +9866,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49211,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50211,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50211,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50211,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321211, 0, 33211, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322211, 1, 33211, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323211, 2, 33211, 2, 10);
@@ -9960,7 +9907,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392211, 1, 40211, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393211, 2, 40211, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394211, 3, 40211, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395211, 4, 40211, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401211, 0, 41211, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402211, 1, 41211, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403211, 2, 41211, 2, 10);
@@ -10011,7 +9958,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492211, 1, 50211, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493211, 2, 50211, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494211, 3, 50211, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495211, 4, 50211, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321211, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322211, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323211, 1002703, 10, 0, 69);
@@ -10102,26 +10049,24 @@ INSERT INTO "m_member_love_panel_cell_source_content" VALUES (492211, 1002702, 1
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (493211, 1002703, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (494211, 1002704, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (495211, 1002705, 10, 0, 69);
--- add missing reward love panel
--- GPT need: loop create copy, find "001" and replace all [002 - 009, 101 - 109, 201 - 212]
-INSERT INTO "m_member_love_panel" VALUES (33212,420,1);
-INSERT INTO "m_member_love_panel" VALUES (34212,440,1);
-INSERT INTO "m_member_love_panel" VALUES (35212,460,1);
-INSERT INTO "m_member_love_panel" VALUES (36212,480,1);
-INSERT INTO "m_member_love_panel" VALUES (37212,500,1);
-INSERT INTO "m_member_love_panel" VALUES (38212,520,1);
-INSERT INTO "m_member_love_panel" VALUES (39212,540,1);
-INSERT INTO "m_member_love_panel" VALUES (40212,560,1);
-INSERT INTO "m_member_love_panel" VALUES (41212,580,1);
-INSERT INTO "m_member_love_panel" VALUES (42212,600,1);
-INSERT INTO "m_member_love_panel" VALUES (43212,620,1);
-INSERT INTO "m_member_love_panel" VALUES (44212,640,1);
-INSERT INTO "m_member_love_panel" VALUES (45212,660,1);
-INSERT INTO "m_member_love_panel" VALUES (46212,680,1);
-INSERT INTO "m_member_love_panel" VALUES (47212,700,1);
-INSERT INTO "m_member_love_panel" VALUES (48212,720,1);
-INSERT INTO "m_member_love_panel" VALUES (49212,740,1);
-INSERT INTO "m_member_love_panel" VALUES (50212,760,1);
+INSERT INTO "m_member_love_panel" VALUES (33212,420,212);
+INSERT INTO "m_member_love_panel" VALUES (34212,440,212);
+INSERT INTO "m_member_love_panel" VALUES (35212,460,212);
+INSERT INTO "m_member_love_panel" VALUES (36212,480,212);
+INSERT INTO "m_member_love_panel" VALUES (37212,500,212);
+INSERT INTO "m_member_love_panel" VALUES (38212,520,212);
+INSERT INTO "m_member_love_panel" VALUES (39212,540,212);
+INSERT INTO "m_member_love_panel" VALUES (40212,560,212);
+INSERT INTO "m_member_love_panel" VALUES (41212,580,212);
+INSERT INTO "m_member_love_panel" VALUES (42212,600,212);
+INSERT INTO "m_member_love_panel" VALUES (43212,620,212);
+INSERT INTO "m_member_love_panel" VALUES (44212,640,212);
+INSERT INTO "m_member_love_panel" VALUES (45212,660,212);
+INSERT INTO "m_member_love_panel" VALUES (46212,680,212);
+INSERT INTO "m_member_love_panel" VALUES (47212,700,212);
+INSERT INTO "m_member_love_panel" VALUES (48212,720,212);
+INSERT INTO "m_member_love_panel" VALUES (49212,740,212);
+INSERT INTO "m_member_love_panel" VALUES (50212,760,212);
 INSERT INTO "m_member_love_panel_bonus" VALUES (33212,3,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (34212,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (35212,6,200);
@@ -10144,7 +10089,7 @@ INSERT INTO "m_member_love_panel_bonus" VALUES (49212,7,100);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50212,13,6);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50212,14,4);
 INSERT INTO "m_member_love_panel_bonus" VALUES (50212,15,2);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (321212, 0, 33212, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (322212, 1, 33212, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (323212, 2, 33212, 2, 10);
@@ -10185,7 +10130,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (392212, 1, 40212, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (393212, 2, 40212, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (394212, 3, 40212, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (395212, 4, 40212, 5, 500);
---
+
 INSERT INTO "m_member_love_panel_cell" VALUES (401212, 0, 41212, 1, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (402212, 1, 41212, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (403212, 2, 41212, 2, 10);
@@ -10236,7 +10181,7 @@ INSERT INTO "m_member_love_panel_cell" VALUES (492212, 1, 50212, 3, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (493212, 2, 50212, 2, 10);
 INSERT INTO "m_member_love_panel_cell" VALUES (494212, 3, 50212, 7, 20);
 INSERT INTO "m_member_love_panel_cell" VALUES (495212, 4, 50212, 5, 500);
--- placeholder source content or we don't need this, for what tho?
+
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (321212, 1002701, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (322212, 1002702, 10, 0, 69);
 INSERT INTO "m_member_love_panel_cell_source_content" VALUES (323212, 1002703, 10, 0, 69);

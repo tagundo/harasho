@@ -32,8 +32,8 @@ UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'rev
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'review_request_url_story_clear_story_part_select';
 
 -- Consistent fix dictionary
-UPDATE m_dictionary SET message = 'Definition Mode' WHERE id = 'system_option_701';
-UPDATE m_dictionary SET message = 'Definition Mode' WHERE id = 'system_option_703';
+UPDATE m_dictionary SET message = 'High Quality Mode' WHERE id = 'system_option_701';
+UPDATE m_dictionary SET message = 'High Quality Mode' WHERE id = 'system_option_703';
 UPDATE m_dictionary SET message = 'Max 3D (No Split Screen)' WHERE id = 'm_live_quality_mode_name_high3d';
 UPDATE m_dictionary SET message = 'Same as Max 3D but without split screen' WHERE id = 'm_live_quality_mode_text_high3d_desc';
 UPDATE m_dictionary SET message = 'Shooting Star of Memories' WHERE id = 'replacement_skill_name_30000527';
@@ -49,15 +49,15 @@ UPDATE m_dictionary SET message = 'This external site will open a browser app.' 
 INSERT INTO m_dictionary VALUES ('elichika_title_1','Youtube');
 INSERT INTO m_dictionary VALUES ('elichika_description_1','Subscribe to Hisoka Tatara');
 INSERT INTO m_dictionary VALUES ('elichika_link_1','https://www.youtube.com/@hisoka_tatara');
-INSERT INTO m_dictionary VALUES ('elichika_title_2','Gamebanana');
+INSERT INTO m_dictionary VALUES ('elichika_title_2','AyakaMods');
 INSERT INTO m_dictionary VALUES ('elichika_description_2','Subscribe to SIFAS Mods Page');
-INSERT INTO m_dictionary VALUES ('elichika_link_2','https://gamebanana.com/games/20519');
-INSERT INTO m_dictionary VALUES ('elichika_title_3','Gitlab');
-INSERT INTO m_dictionary VALUES ('elichika_description_3','Give us Star');
-INSERT INTO m_dictionary VALUES ('elichika_link_3','https://gitlab.com/tatara_hisoka/elichika');
+INSERT INTO m_dictionary VALUES ('elichika_link_2','https://ayakamods.com/games/love-live-school-idol-festival-all-stars.217');
+INSERT INTO m_dictionary VALUES ('elichika_title_3','Jift me a Toaster');
+INSERT INTO m_dictionary VALUES ('elichika_description_3','Toaster');
+INSERT INTO m_dictionary VALUES ('elichika_link_3','https://sociabuzz.com/tatara_hisoka/tribe');
 INSERT INTO m_dictionary VALUES ('elichika_title_4','Discord');
 INSERT INTO m_dictionary VALUES ('elichika_description_4','Join LL Hax Server');
-INSERT INTO m_dictionary VALUES ('elichika_link_4','https://discord.gg/VnhnvdW8CG');
+INSERT INTO m_dictionary VALUES ('elichika_link_4','https://discord.gg/gHuCzK3b2Z');
 INSERT INTO m_dictionary VALUES ('elichika_title_5','Discord');
 INSERT INTO m_dictionary VALUES ('elichika_description_5','Join r/Otonokizaka Server');
 INSERT INTO m_dictionary VALUES ('elichika_link_5','https://discord.gg/haha98');
