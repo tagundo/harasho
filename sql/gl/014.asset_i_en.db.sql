@@ -1,17 +1,3 @@
--- This is the asset for the icons for daily theater
--- We can make a new pack but we can just reuse from jp's pack for now
-INSERT INTO texture (asset_path, pack_name, head, size, key1, key2) VALUES (";c}", "ubias7", "0", "547", "625232640", "1360541736");
-INSERT INTO texture (asset_path, pack_name, head, size, key1, key2) VALUES ("X""I", "ubias7", "547", "551", "1575450016", "486001896");
-
-INSERT INTO m_asset_pack (pack_name, auto_delete) VALUES ("ubias7", "0");
-
-INSERT INTO m_asset_package_mapping (package_key, pack_name, file_Size, metapack_offset, category) VALUES ("main", "ubias7", "394966", "0", "8");
-
-
--- =============================
--- appended from 023.asset_a_en.db.sql
--- =============================
-
 INSERT INTO m_asset_pack VALUES("gbntg3", 0);
 INSERT INTO m_asset_package_mapping VALUES("main", "gbntg3", 6425084, NULL, 0, 1);
 INSERT INTO m_asset_pack VALUES("5jzxe7", 0);
@@ -49,7 +35,7 @@ INSERT INTO m_asset_package_mapping VALUES("main", "vv0fub", 1395232, NULL, 0, 1
 INSERT INTO m_asset_package_mapping VALUES("main", "ghm1os", 4009397, NULL, 0, 1);
 INSERT INTO m_asset_package_mapping VALUES("main", "1jqy13", 204920, NULL, 0, 1);
 INSERT INTO m_asset_package_mapping VALUES("main", "x9y2x9", 3079115, NULL, 0, 1);
-UPDATE m_asset_package SET version = "ea2b0a3bae52ea95ce8b308cc44b020c3746714e", pack_num = (SELECT COUNT(*) FROM m_asset_package_mapping WHERE package_key="main") WHERE package_key = "main";
+UPDATE m_asset_package SET version = "c237f72f7971efdc71676d80752129e08cf425c8", pack_num = (SELECT COUNT(*) FROM m_asset_package_mapping WHERE package_key="main") WHERE package_key = "main";
 INSERT INTO texture VALUES ("!+q", "gbntg3", 1997695, 173683, 1152027745, 1641994297);
 INSERT INTO texture VALUES ("!3)", "gbntg3", 5483859, 332727, -419216394, 102006492);
 INSERT INTO texture VALUES ("!EF", "5jzxe7", 1109490, 147893, -481404316, 456021234);
