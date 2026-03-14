@@ -1,4 +1,3 @@
--- AIO Patch be23bc10e31ebfd0f09af2e0e19922579b75efe8 (4 January 2025)
 INSERT INTO m_live VALUES (42030, 0, 2030, "music_2030", "music_2030_SABI", 12030, "k.song_name_so2030", "k.song_pronunciation_so2030", 3, NULL, "k.m_dic_member_name_210", "k.song_copyright_so2030", NULL, "Apa", "SI", 42030);
 INSERT INTO m_live_difficulty_const VALUES (11072101, 3600, 10000, 50, 10000, 252, 50000, 250000, 50000, 30000);
 INSERT INTO m_live_difficulty_const VALUES (11006401, 7200, 10000, 100, 10000, 433, 100000, 500000, 50000, 30000);
@@ -92,18 +91,88 @@ INSERT INTO m_live_difficulty_gimmick VALUES (1000414, 11072301, 2, 1, 1, 500723
 INSERT INTO m_live_difficulty_gimmick VALUES (1000205, 12031101, 2, 1, 1, 50005601, "k.live_detail_difficulty_1000205", "k.live_detail_hint_12031101_2");
 INSERT INTO m_live_difficulty_gimmick VALUES (1000217, 12033101, 2, 1, 1, 50005301, "k.live_detail_difficulty_1000217", "k.live_detail_hint_12033101_2");
 INSERT INTO m_live_difficulty_gimmick VALUES (1000214, 12032101, 2, 1, 1, 50005401, "k.live_detail_difficulty_1000214", "k.live_detail_hint_12032101_2");
+
+
+
+-- =============================
+-- appended from 002.masterdata.db.sql
+-- =============================
+
 -- Unlock DLP, only once for DLP that has multiple sessions
 UPDATE m_tower_period SET closed_at = 0x7fffffff, result_at = 0x7fffffff, end_at = 0x7fffffff WHERE tower_id NOT IN (33001, 33002, 33003, 33004, 33036, 133001);
 -- 33001 is the same as 133001, so no need to add it, we also need to modify the latest version
 UPDATE m_tower_period SET closed_at = 0x7fffffff, result_at = 0x7fffffff, end_at = 0x7fffffff WHERE id IN (33002048, 33003048, 33004048, 33036006, 133001048);
 -- tower with ranking need to have the time a bit different
 UPDATE m_tower_period SET closed_at = 0x7ffeae7f, result_at = 0x7ffed8af, end_at = 0x7fffffff WHERE id IN (33041046, 33042047, 33043048);
+
+-- =============================
+-- appended from 003.masterdata.db.sql
+-- =============================
+
 -- Unlock Liella songs
 UPDATE m_live_difficulty SET unlock_pattern = 1 WHERE live_id / 1000 == 13;
+
+-- =============================
+-- appended from 004.masterdata.db.sql
+-- =============================
+
 -- Update m_login_bonus_birthday to be more consistent
 -- Update the first login bonus to match newer format
 UPDATE m_login_bonus_birthday SET id = 100000 + id * 100 + 1 WHERE id <= 209;
 -- Update Shioriko first background to match the id system
 UPDATE m_background SET id = 121002 WHERE id = 121001;
+
+-- =============================
+-- appended from 005.masterdata.db.sql
+-- =============================
+
 -- Update m_member_guild_period to sync GL and JP server, allowing for cross play
 UPDATE m_member_guild_period SET start_at = 1617008400;
+
+
+-- =============================
+-- appended from 006.masterdata.db.sql
+-- =============================
+
+-- Event mining are all stored inside m_event_mining
+INSERT INTO m_event_mining VALUES (31041, "m.event_mining_title_31041", "k.event_mining_shop_item_inline_image_31041");
+INSERT INTO m_event_mining VALUES (31040, "m.event_mining_title_31040", "k.event_mining_shop_item_inline_image_31040");
+INSERT INTO m_event_mining VALUES (31039, "m.event_mining_title_31039", "k.event_mining_shop_item_inline_image_31039");
+INSERT INTO m_event_mining VALUES (31038, "m.event_mining_title_31038", "k.event_mining_shop_item_inline_image_31038");
+INSERT INTO m_event_mining VALUES (31037, "m.event_mining_title_31037", "k.event_mining_shop_item_inline_image_31037");
+INSERT INTO m_event_mining VALUES (31036, "m.event_mining_title_31036", "k.event_mining_shop_item_inline_image_31036");
+INSERT INTO m_event_mining VALUES (31035, "m.event_mining_title_31035", "k.event_mining_shop_item_inline_image_31035");
+INSERT INTO m_event_mining VALUES (31034, "m.event_mining_title_31034", "k.event_mining_shop_item_inline_image_31034");
+INSERT INTO m_event_mining VALUES (31033, "m.event_mining_title_31033", "k.event_mining_shop_item_inline_image_31033");
+INSERT INTO m_event_mining VALUES (31032, "m.event_mining_title_31032", "k.event_mining_shop_item_inline_image_31032");
+INSERT INTO m_event_mining VALUES (31031, "m.event_mining_title_31031", "k.event_mining_shop_item_inline_image_31031");
+INSERT INTO m_event_mining VALUES (31030, "m.event_mining_title_31030", "k.event_mining_shop_item_inline_image_31030");
+INSERT INTO m_event_mining VALUES (31029, "m.event_mining_title_31029", "k.event_mining_shop_item_inline_image_31029");
+INSERT INTO m_event_mining VALUES (31028, "m.event_mining_title_31028", "k.event_mining_shop_item_inline_image_31028");
+INSERT INTO m_event_mining VALUES (31027, "m.event_mining_title_31027", "k.event_mining_shop_item_inline_image_31027");
+INSERT INTO m_event_mining VALUES (31026, "m.event_mining_title_31026", "k.event_mining_shop_item_inline_image_31026");
+INSERT INTO m_event_mining VALUES (31025, "m.event_mining_title_31025", "k.event_mining_shop_item_inline_image_31025");
+INSERT INTO m_event_mining VALUES (31024, "m.event_mining_title_31024", "k.event_mining_shop_item_inline_image_31024");
+INSERT INTO m_event_mining VALUES (31023, "m.event_mining_title_31023", "k.event_mining_shop_item_inline_image_31023");
+INSERT INTO m_event_mining VALUES (31022, "m.event_mining_title_31022", "k.event_mining_shop_item_inline_image_31022");
+INSERT INTO m_event_mining VALUES (31021, "m.event_mining_title_31021", "k.event_mining_shop_item_inline_image_31021");
+INSERT INTO m_event_mining VALUES (31020, "m.event_mining_title_31020", "k.event_mining_shop_item_inline_image_31020");
+INSERT INTO m_event_mining VALUES (31019, "m.event_mining_title_31019", "k.event_mining_shop_item_inline_image_31019");
+INSERT INTO m_event_mining VALUES (31018, "m.event_mining_title_31018", "k.event_mining_shop_item_inline_image_31018");
+INSERT INTO m_event_mining VALUES (31017, "m.event_mining_title_31017", "k.event_mining_shop_item_inline_image_31017");
+INSERT INTO m_event_mining VALUES (31016, "m.event_mining_title_31016", "k.event_mining_shop_item_inline_image_31016");
+INSERT INTO m_event_mining VALUES (31015, "m.event_mining_title_31015", "k.event_mining_shop_item_inline_image_31015");
+INSERT INTO m_event_mining VALUES (31014, "m.event_mining_title_31014", "k.event_mining_shop_item_inline_image_31014");
+INSERT INTO m_event_mining VALUES (31013, "m.event_mining_title_31013", "k.event_mining_shop_item_inline_image_31013");
+INSERT INTO m_event_mining VALUES (31012, "m.event_mining_title_31012", "k.event_mining_shop_item_inline_image_31012");
+INSERT INTO m_event_mining VALUES (31011, "m.event_mining_title_31011", "k.event_mining_shop_item_inline_image_31011");
+INSERT INTO m_event_mining VALUES (31010, "m.event_mining_title_31010", "k.event_mining_shop_item_inline_image_31010");
+INSERT INTO m_event_mining VALUES (31009, "m.event_mining_title_31009", "k.event_mining_shop_item_inline_image_31009");
+INSERT INTO m_event_mining VALUES (31008, "m.event_mining_title_31008", "k.event_mining_shop_item_inline_image_31008");
+INSERT INTO m_event_mining VALUES (31007, "m.event_mining_title_31007", "k.event_mining_shop_item_inline_image_31007");
+INSERT INTO m_event_mining VALUES (31006, "m.event_mining_title_31006", "k.event_mining_shop_item_inline_image_31006");
+INSERT INTO m_event_mining VALUES (31005, "m.event_mining_title_31005", "k.event_mining_shop_item_inline_image_31005");
+INSERT INTO m_event_mining VALUES (31004, "m.event_mining_title_31004", "k.event_mining_shop_item_inline_image_31004");
+INSERT INTO m_event_mining VALUES (31003, "m.event_mining_title_31003", "k.event_mining_shop_item_inline_image_31003");
+INSERT INTO m_event_mining VALUES (31002, "m.event_mining_title_31002", "k.event_mining_shop_item_inline_image_31002");
+INSERT INTO m_event_mining VALUES (31001, "m.event_mining_title_31001", "k.event_mining_shop_item_inline_image_31001");
