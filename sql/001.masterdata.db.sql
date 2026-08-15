@@ -49,25 +49,45 @@ INSERT INTO m_lesson_skill_member_chance (position_id, weight) VALUES (7, 950);
 INSERT INTO m_lesson_skill_member_chance (position_id, weight) VALUES (8, 950);
 INSERT INTO m_lesson_skill_member_chance (position_id, weight) VALUES (9, 950);
 
--- Weight of each insight skill rarity. Rarity 0 is the weight of dropping no skill at all,
--- so a run gives some skill 71.31% of the time.
+-- Relative weight of each insight skill rarity, i.e. the mix of rarities given that a
+-- skill drops at all. Sums to 10000. Whether a skill drops is a separate question,
+-- answered by m_lesson_skill_no_drop below.
 --
--- These are the observed rates. eman1can/elichika instead ships a deliberately harder
--- tuning (0 = 4000, 1 = 3000, 2 = 2000, 3 = 750, 4 = 250, 5 = 100), which drops a skill
--- only 60.4% of the time, to make passive skills scarcer. Put those numbers back if that
--- is wanted: nothing in elichika depends on which of the two is used.
+-- Splitting the two is not cosmetic. The observed rarity mix is the same no matter which
+-- lessons were run: when a combination drops skills more often, every rarity is scaled up
+-- by the same factor, so exactly one number has to change and it is not one of these.
 --
--- Caveat: this model produces one flat rate for every lesson combination, because all 5
--- rarities are always represented. The real rates were not flat, they were 84.1% for the
--- 8 pure combinations and 69.3% across the 504 mixed ones, ranging from 57.5% to 91.0%.
--- The weights below match the overall average, not that spread.
+-- These are the observed rates. eman1can/elichika instead ships a harder tuning
+-- (3000, 2000, 750, 250, 100 with a flat no-drop weight of 4000) to make passive skills
+-- scarcer. Nothing in elichika depends on which set is used.
 CREATE TABLE m_lesson_skill_rarity (rarity INTEGER PRIMARY KEY, weight INTEGER);
-INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (0, 2869);
-INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (1, 3830);
-INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (2, 1842);
-INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (3, 810);
-INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (4, 485);
-INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (5, 164);
+INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (1, 5371);
+INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (2, 2583);
+INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (3, 1136);
+INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (4, 680);
+INSERT INTO m_lesson_skill_rarity (rarity, weight) VALUES (5, 230);
+
+-- Weight of dropping no skill at all, drawn against the 10000 above.
+--
+-- has_exclusive is 1 when the combination offers a skill that is exclusive to it, meaning
+-- a pure skill (drop_type 1, needs all 3 lessons the same) or a majority skill
+-- (drop_type 4, needs two of one lesson and one of another). Those combinations drop a
+-- skill 84.05% of the time; every other combination drops one 62.91% of the time.
+--
+-- This is the single thing that made the real rates vary, and it is a sharp split rather
+-- than a gradient. Grouped by whether an exclusive skill was on offer, the observed rates
+-- were:
+--
+--   exclusive available     71 combos   84.05%   (the 8 pure ones, plus 63 majority ones)
+--   not available          441 combos   62.91%
+--
+-- The two groups are internally flat to within sampling noise, and pure combinations are
+-- not special on their own: a majority combination that offers a drop_type 4 skill sits at
+-- the same 84% as a pure one. Weighted across all 512 combinations this still averages the
+-- 71.31% seen overall.
+CREATE TABLE m_lesson_skill_no_drop (has_exclusive INTEGER PRIMARY KEY, weight INTEGER);
+INSERT INTO m_lesson_skill_no_drop (has_exclusive, weight) VALUES (0, 5896);
+INSERT INTO m_lesson_skill_no_drop (has_exclusive, weight) VALUES (1, 1898);
 
 -- Which insight skill can drop from which combination of the 3 lessons.
 --
