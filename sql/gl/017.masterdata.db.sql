@@ -21,13 +21,13 @@ INSERT INTO m_lesson_enhancing_item VALUES ('1501', '1', '4', 'k.item_thumb_titl
 INSERT INTO m_lesson_enhancing_item VALUES ('1502', '1', '4', 'k.item_thumb_title_1502', '?-', 'k.item_name_1502', 'k.item_desc_1502', '14', NULL, '1');
 INSERT INTO m_lesson_enhancing_item_effect_skill_drop VALUES ('1402', '4');
 INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1501', '1', '10000');
+INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1501', '2', '10000');
 INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1501', '3', '15000');
 INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1501', '4', '12000');
-INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1501', '2', '10000');
 INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1502', '1', '10000');
-INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1502', '4', '15000');
-INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1502', '5', '12000');
 INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1502', '2', '10000');
+INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1502', '3', '12000');
+INSERT INTO m_lesson_enhancing_item_effect_drop_rate VALUES ('1502', '4', '15000');
 INSERT INTO m_grade_upper VALUES ('1801', 'k.item_name_1801', 'k.item_desc_1800', '2', 'bc', 'bc', '15', '32', NULL, '1');
 INSERT INTO m_grade_upper VALUES ('1802', 'k.item_name_1802', 'k.item_desc_1800', '3', '(g', '(g', '15', '32', NULL, '1');
 -- School Idol Radiance
