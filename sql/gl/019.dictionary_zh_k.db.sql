@@ -1,11 +1,11 @@
 -- SIFAS Single Player (GL JP Client)
 
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_heal','{0}체력을 회복하자!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_shield','{0}실드를 획득하자!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_vo','VO 타입으로 {0}볼티지를 획득하자!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sp','SP 타입으로 {0}볼티지를 획득하자!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_gd','GD 타입으로 {0}볼티지를 획득하자!');
-INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sk','SK 타입으로 {0}볼티지를 획득하자!');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_heal','累積{0}體力吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_shield','累積{0}護盾吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_vo','使用VO類型累積{0}張力吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sp','使用SP類型累積{0}張力吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_gd','使用GD類型累積{0}張力吧！');
+INSERT INTO "m_dictionary" VALUES ('live_appeal_time_mission_got_voltage_by_sk','使用SK類型累積{0}張力吧！');
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'dic_external_movie_url_1';
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'dic_external_movie_url_2';
 UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'dic_external_movie_url_6';
@@ -22,17 +22,17 @@ UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'rev
 INSERT INTO m_dictionary VALUES ('item_desc_1402','A Training item that guarantees your leader will discover a super rare Insight Skill.');
 INSERT INTO m_dictionary VALUES ('item_name_1402','Insight Pin ★3');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1402','★3');
-INSERT INTO m_dictionary VALUES ('item_desc_1501','A Training item that increases the drop rate of super rare items. You can obtain these when you complete Goals.');
+INSERT INTO m_dictionary VALUES ('item_desc_1501','A Training item that increases the drop rate of super rare items.');
 INSERT INTO m_dictionary VALUES ('item_name_1501','Lucky Charm ★2');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1501','★2');
-INSERT INTO m_dictionary VALUES ('item_desc_1502','A Training item that increases the drop rate of ultra rare items. You can obtain these when you complete Goals.');
+INSERT INTO m_dictionary VALUES ('item_desc_1502','A Training item that increases the drop rate of ultra rare items.');
 INSERT INTO m_dictionary VALUES ('item_name_1502','Lucky Charm ★3');
 INSERT INTO m_dictionary VALUES ('item_thumb_title_1502','★3');
 UPDATE m_dictionary SET message = 'School Idol Radiance (R)' WHERE id = 'item_name_1800';
 INSERT INTO m_dictionary VALUES ('item_name_1801', 'School Idol Radiance (SR)');
 INSERT INTO m_dictionary VALUES ('item_name_1802', 'School Idol Radiance (UR)');
 -- Reference Book
-UPDATE m_dictionary SET message = '이 외부 사이트는 브라우저 앱을 엽니다.' WHERE id = 'reference_book_l_105';
+UPDATE m_dictionary SET message = '此外部网站将打开浏览器应用程序.' WHERE id = 'reference_book_l_105';
 INSERT INTO m_dictionary VALUES ('elichika_title_1','Youtube');
 INSERT INTO m_dictionary VALUES ('elichika_description_1','Subscribe to Hisoka Tatara');
 INSERT INTO m_dictionary VALUES ('elichika_link_1','https://www.youtube.com/@hisoka_tatara');
