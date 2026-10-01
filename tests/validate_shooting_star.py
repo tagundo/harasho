@@ -31,9 +31,15 @@ def migrations(repo, locale, ref):
         files = [str(p.relative_to(repo)) for p in (repo / "sql").rglob("*.sql")]
     valid = [p for p in files if len(Path(p).name) > 8 and p.endswith(".sql")]
     # os.ReadDir in Go returns filename-sorted entries; regional files precede common.
-    return sorted(p for p in valid if p.startswith(f"sql/{locale}/")) + sorted(
+    paths = sorted(p for p in valid if p.startswith(f"sql/{locale}/")) + sorted(
         p for p in valid if p.count("/") == 1
     )
+    # Targeted upgrades run after the full migrations on a fresh installation.
+    # Historic refs can still contain this table in the shared full migration.
+    upgrade = "sql/upgrades/001.lesson_shooting_star.sql"
+    if upgrade in valid:
+        paths.append(upgrade)
+    return paths
 
 
 def apply(repo, locale, ref):
@@ -42,7 +48,7 @@ def apply(repo, locale, ref):
     migration_sha256 = {}
     paths = migrations(repo, locale, ref)
     for path in paths:
-        database_name = Path(path).name[4:-4]
+        database_name = "masterdata.db" if path == "sql/upgrades/001.lesson_shooting_star.sql" else Path(path).name[4:-4]
         if database_name not in databases:
             src = sqlite3.connect(
                 f"file:{repo}/db/{locale}/{database_name}?mode=ro", uri=True
