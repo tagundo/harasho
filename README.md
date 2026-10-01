@@ -9,9 +9,11 @@ This repository is kept up-to-date with `elichika`'s feature updates, with the r
 
 For each version, sql files to modify the EOS database to the desired database will be provided instead of the modified database itself. This is both to reduce the necessary network load and make it easier to check what actually changed. These sql files will assume the relevant elichika version would be used to load them. Howerver, you can assume the process would generally follow the following:
 
-- Check if the repository is already modified using git.
-- If the repository is already modified, elichika would not change anything.
-- Otherwise elichika will try to make the change specified by the sql files. How it do this is defined entirely inside elichika and might be subjected to changes.
+- Elichika checks each database file against its Git version before running the historical full SQL migrations.
+- If a database file already has local changes, those full migrations are skipped for that file.
+- Otherwise elichika applies the full SQL migrations using its migration loader.
+
+Targeted upgrades still run for modified or restored databases. Missing Shooting Star metadata is added while existing metadata tables are preserved. Dictionary plans insert missing keys or replace exact known historical messages; other wording, including owner translations, is preserved. See [Dictionary text upgrades](upgrades/README.md) for the plan format and maintenance rules.
 
 If you want to make your own game version (with modified database and such), it's recommended to create a fork or a new repository with the same structure and point to it from elichika (or your fork / version of it).
 
