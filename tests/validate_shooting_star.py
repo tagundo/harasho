@@ -42,6 +42,16 @@ def migrations(repo, locale, ref):
     return paths
 
 
+def dictionary_plans(repo, locale, ref):
+    directory = f"upgrades/{locale}/"
+    if ref:
+        files = git(repo, "ls-tree", "-r", "--name-only", ref, directory).decode().splitlines()
+    else:
+        files = [str(p.relative_to(repo)) for p in (repo / directory).glob("dictionary_*_k.json")]
+    return sorted(p for p in files if p.startswith(directory)
+                  and Path(p).name.startswith("dictionary_") and p.endswith("_k.json"))
+
+
 def apply(repo, locale, ref):
     databases = {}
     lines = 0
@@ -67,10 +77,41 @@ def apply(repo, locale, ref):
             except sqlite3.Error as error:
                 raise AssertionError(f"{locale}/{path}:{number}: {error}") from error
             lines += 1
+    # Parameterized text-only plans follow all full SQL and shared lesson metadata.
+    # Historical refs without plans retain exactly their original behavior.
+    plans = dictionary_plans(repo, locale, ref)
+    plan_sha256 = {}
+    plan_changes = {}
+    for path in plans:
+        name = Path(path).stem + ".db"
+        if name not in databases:
+            src = sqlite3.connect(f"file:{repo}/db/{locale}/{name}?mode=ro", uri=True)
+            dst = sqlite3.connect(":memory:")
+            src.backup(dst)
+            src.close()
+            databases[name] = dst
+        contents = git(repo, "show", f"{ref}:{path}").decode() if ref else (repo / path).read_text(encoding="utf-8")
+        plan_sha256[path] = hashlib.sha256(contents.encode()).hexdigest()
+        plan = json.loads(contents)
+        assert isinstance(plan.get("changes"), list), path
+        applied = 0
+        for change in plan["changes"]:
+            assert isinstance(change["id"], str) and isinstance(change["to"], str), path
+            assert isinstance(change["from"], list) and all(isinstance(v, str) for v in change["from"]), path
+            database = databases[name]
+            current = database.execute("SELECT message FROM m_dictionary WHERE id=?", (change["id"],)).fetchone()
+            if current is None:
+                database.execute("INSERT INTO m_dictionary(id,message) VALUES(?,?)", (change["id"], change["to"]))
+                applied += 1
+            elif current[0] != change["to"] and current[0] in change["from"]:
+                database.execute("UPDATE m_dictionary SET message=? WHERE id=? AND message=?", (change["to"], change["id"], current[0]))
+                applied += 1
+        plan_changes[path] = applied
     for database in databases.values():
         database.commit()
         assert database.execute("PRAGMA integrity_check").fetchall() == [("ok",)]
-    return databases, {"files": len(paths), "lines": lines, "paths": paths, "sha256": migration_sha256}
+    return databases, {"files": len(paths), "lines": lines, "paths": paths, "sha256": migration_sha256,
+                       "dictionary_plans": plans, "plan_sha256": plan_sha256, "plan_changes": plan_changes}
 
 
 def fingerprints(database):

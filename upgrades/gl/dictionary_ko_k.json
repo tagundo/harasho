@@ -1,0 +1,197 @@
+{
+  "changes": [
+    {
+      "id": "item_desc_1402",
+      "from": [
+        "A Training item that guarantees your leader will discover a super rare Insight Skill."
+      ],
+      "to": "리더가 A등급 또는 S등급 아이디어 스킬을 반드시 획득하게 되는 합숙 아이템."
+    },
+    {
+      "id": "item_desc_1501",
+      "from": [
+        "A Training item that increases the drop rate of super rare items.",
+        "A Training item that increases the drop rate of super rare items. You can obtain these when you complete Goals."
+      ],
+      "to": "레어도가 높은 아이템의 획득 확률을 올리는 합숙 아이템."
+    },
+    {
+      "id": "item_desc_1502",
+      "from": [
+        "A Training item that increases the drop rate of ultra rare items.",
+        "A Training item that increases the drop rate of ultra rare items. You can obtain these when you complete Goals."
+      ],
+      "to": "레어도가 높은 아이템의 획득 확률을 올리는 합숙 아이템."
+    },
+    {
+      "id": "item_name_1800",
+      "from": [
+        "스쿨 아이돌의 광휘",
+        "School Idol Radiance (R)"
+      ],
+      "to": "스쿨 아이돌의 광휘 (R)"
+    },
+    {
+      "id": "item_name_1801",
+      "from": [
+        "School Idol Radiance (SR)"
+      ],
+      "to": "스쿨 아이돌의 광휘 (SR)"
+    },
+    {
+      "id": "item_name_1802",
+      "from": [
+        "School Idol Radiance (UR)"
+      ],
+      "to": "스쿨 아이돌의 광휘 (UR)"
+    },
+    {
+      "id": "system_option_701",
+      "from": [
+        "고퀄리티 3D 모드"
+      ],
+      "to": "고화질 모드"
+    },
+    {
+      "id": "system_option_703",
+      "from": [
+        "고퀄리티 3D 모드"
+      ],
+      "to": "고화질 모드"
+    },
+    {
+      "id": "m_live_quality_mode_name_high3d",
+      "from": [
+        "3D 높음"
+      ],
+      "to": "3D 최고 (화면 분할 없음)"
+    },
+    {
+      "id": "m_live_quality_mode_name_max3d",
+      "from": [
+        "3D 매우 높음"
+      ],
+      "to": "3D 최고 (화면 분할 지원)"
+    },
+    {
+      "id": "m_live_quality_mode_text_high3d_desc",
+      "from": [
+        "해상도가 높은 품질 설정입니다."
+      ],
+      "to": "부드러운 3D 애니메이션과 고해상도 그래픽을 한 화면에 표시하는 최고 화질 설정입니다."
+    },
+    {
+      "id": "m_live_quality_mode_text_max3d_desc",
+      "from": [
+        "해상도가 높고 3D 영상이 부드럽게 움직이는 최고 품질 설정입니다."
+      ],
+      "to": "부드러운 3D 애니메이션과 고해상도 그래픽을 제공하며, 화면 분할 MV 연출을 지원하는 최고 화질 설정입니다."
+    },
+    {
+      "id": "reference_book_l_105",
+      "from": [
+        "Youtube 동영상을 재생하기 위해\n외부 사이트에 접속합니다.",
+        "이 외부 사이트는 브라우저 앱을 엽니다."
+      ],
+      "to": "외부 사이트를 브라우저 앱으로 엽니다."
+    },
+    {
+      "id": "elichika_description_1",
+      "from": [
+        "Subscribe to Hisoka Tatara"
+      ],
+      "to": "Hisoka Tatara 채널 구독"
+    },
+    {
+      "id": "elichika_description_2",
+      "from": [
+        "Subscribe to SIFAS Mods Page"
+      ],
+      "to": "SIFAS 모드 페이지 방문"
+    },
+    {
+      "id": "elichika_description_3",
+      "from": [
+        "Toaster"
+      ],
+      "to": "토스터"
+    },
+    {
+      "id": "elichika_description_4",
+      "from": [
+        "Join LL Hax Server"
+      ],
+      "to": "LL Hax 서버 참여"
+    },
+    {
+      "id": "elichika_description_5",
+      "from": [
+        "Join r/Otonokizaka Server"
+      ],
+      "to": "r/Otonokizaka 서버 참여"
+    },
+    {
+      "id": "elichika_description_6",
+      "from": [
+        "Admin"
+      ],
+      "to": "관리자 페이지"
+    },
+    {
+      "id": "elichika_description_7",
+      "from": [
+        "User"
+      ],
+      "to": "사용자 페이지"
+    },
+    {
+      "id": "replacement_skill_name_30000527",
+      "from": [
+        "思い出の流れ星"
+      ],
+      "to": "추억의 별똥별"
+    },
+    {
+      "id": "replacement_skill_name_30000528",
+      "from": [
+        "トロピカルスマイル"
+      ],
+      "to": "트로피컬 스마일"
+    },
+    {
+      "id": "replacement_skill_name_30000529",
+      "from": [
+        "ビーチサバイバー"
+      ],
+      "to": "비치 서바이버"
+    },
+    {
+      "id": "replacement_skill_name_30000530",
+      "from": [
+        "ボンダンス"
+      ],
+      "to": "본 댄스"
+    },
+    {
+      "id": "replacement_skill_name_30000531",
+      "from": [
+        "スイカスマッシャー"
+      ],
+      "to": "수박 스매셔"
+    },
+    {
+      "id": "replacement_skill_name_30000532",
+      "from": [
+        "サマーラバー"
+      ],
+      "to": "서머 러버"
+    },
+    {
+      "id": "replacement_skill_name_30000533",
+      "from": [
+        "ビーチダッシュ"
+      ],
+      "to": "비치 대시"
+    }
+  ]
+}

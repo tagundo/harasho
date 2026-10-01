@@ -1,0 +1,218 @@
+{
+  "changes": [
+    {
+      "id": "item_desc_1402",
+      "from": [
+        "A Training item that guarantees your leader will discover a super rare Insight Skill."
+      ],
+      "to": "能讓設為領隊的學園偶像必定習得A級或S級經驗技能的集訓道具。"
+    },
+    {
+      "id": "item_desc_1501",
+      "from": [
+        "A Training item that increases the drop rate of super rare items.",
+        "A Training item that increases the drop rate of super rare items. You can obtain these when you complete Goals."
+      ],
+      "to": "提升高稀有度道具掉落機率的集訓道具。"
+    },
+    {
+      "id": "item_desc_1502",
+      "from": [
+        "A Training item that increases the drop rate of ultra rare items.",
+        "A Training item that increases the drop rate of ultra rare items. You can obtain these when you complete Goals."
+      ],
+      "to": "提升高稀有度道具掉落機率的集訓道具。"
+    },
+    {
+      "id": "item_name_1402",
+      "from": [
+        "Insight Pin ★3"
+      ],
+      "to": "經驗技能胸章★3"
+    },
+    {
+      "id": "item_name_1501",
+      "from": [
+        "Lucky Charm ★2"
+      ],
+      "to": "幸運護身符★2"
+    },
+    {
+      "id": "item_name_1502",
+      "from": [
+        "Lucky Charm ★3"
+      ],
+      "to": "幸運護身符★3"
+    },
+    {
+      "id": "item_name_1800",
+      "from": [
+        "學園偶像光石",
+        "School Idol Radiance (R)"
+      ],
+      "to": "學園偶像光石 (R)"
+    },
+    {
+      "id": "item_name_1801",
+      "from": [
+        "School Idol Radiance (SR)"
+      ],
+      "to": "學園偶像光石 (SR)"
+    },
+    {
+      "id": "item_name_1802",
+      "from": [
+        "School Idol Radiance (UR)"
+      ],
+      "to": "學園偶像光石 (UR)"
+    },
+    {
+      "id": "system_option_701",
+      "from": [
+        "3D流暢模式"
+      ],
+      "to": "高畫質模式"
+    },
+    {
+      "id": "system_option_703",
+      "from": [
+        "3D流暢模式"
+      ],
+      "to": "高畫質模式"
+    },
+    {
+      "id": "m_live_quality_mode_name_high3d",
+      "from": [
+        "高品質3D"
+      ],
+      "to": "最高品質3D（無分割畫面）"
+    },
+    {
+      "id": "m_live_quality_mode_name_max3d",
+      "from": [
+        "最高品質3D"
+      ],
+      "to": "最高品質3D（支援分割畫面）"
+    },
+    {
+      "id": "m_live_quality_mode_text_high3d_desc",
+      "from": [
+        "解析度較高的品質設定。"
+      ],
+      "to": "最高畫質設定，以單一畫面呈現流暢的3D動畫與高解析度影像。"
+    },
+    {
+      "id": "m_live_quality_mode_text_max3d_desc",
+      "from": [
+        "解析度較高，3D影像也能流暢運作的最高品質設定。"
+      ],
+      "to": "最高畫質設定，提供流暢的3D動畫與高解析度影像，並支援MV分割畫面演出。"
+    },
+    {
+      "id": "reference_book_l_105",
+      "from": [
+        "為播放Youtube影片，\n即將連至外部網站。",
+        "此外部网站将打开浏览器应用程序."
+      ],
+      "to": "將使用瀏覽器開啟外部網站。"
+    },
+    {
+      "id": "elichika_description_1",
+      "from": [
+        "Subscribe to Hisoka Tatara"
+      ],
+      "to": "訂閱Hisoka Tatara頻道"
+    },
+    {
+      "id": "elichika_description_2",
+      "from": [
+        "Subscribe to SIFAS Mods Page"
+      ],
+      "to": "瀏覽SIFAS模組頁面"
+    },
+    {
+      "id": "elichika_description_3",
+      "from": [
+        "Toaster"
+      ],
+      "to": "烤麵包機"
+    },
+    {
+      "id": "elichika_description_4",
+      "from": [
+        "Join LL Hax Server"
+      ],
+      "to": "加入LL Hax伺服器"
+    },
+    {
+      "id": "elichika_description_5",
+      "from": [
+        "Join r/Otonokizaka Server"
+      ],
+      "to": "加入r/Otonokizaka伺服器"
+    },
+    {
+      "id": "elichika_description_6",
+      "from": [
+        "Admin"
+      ],
+      "to": "管理員頁面"
+    },
+    {
+      "id": "elichika_description_7",
+      "from": [
+        "User"
+      ],
+      "to": "使用者頁面"
+    },
+    {
+      "id": "replacement_skill_name_30000527",
+      "from": [
+        "思い出の流れ星"
+      ],
+      "to": "回憶的流星"
+    },
+    {
+      "id": "replacement_skill_name_30000528",
+      "from": [
+        "トロピカルスマイル"
+      ],
+      "to": "熱帶微笑"
+    },
+    {
+      "id": "replacement_skill_name_30000529",
+      "from": [
+        "ビーチサバイバー"
+      ],
+      "to": "海灘求生者"
+    },
+    {
+      "id": "replacement_skill_name_30000530",
+      "from": [
+        "ボンダンス"
+      ],
+      "to": "盆舞"
+    },
+    {
+      "id": "replacement_skill_name_30000531",
+      "from": [
+        "スイカスマッシャー"
+      ],
+      "to": "西瓜粉碎者"
+    },
+    {
+      "id": "replacement_skill_name_30000532",
+      "from": [
+        "サマーラバー"
+      ],
+      "to": "夏日愛好者"
+    },
+    {
+      "id": "replacement_skill_name_30000533",
+      "from": [
+        "ビーチダッシュ"
+      ],
+      "to": "海灘衝刺"
+    }
+  ]
+}

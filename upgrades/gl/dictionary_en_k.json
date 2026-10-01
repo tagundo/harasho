@@ -1,0 +1,32 @@
+{
+  "changes": [
+    {
+      "id": "item_desc_1402",
+      "from": [
+        "A Training item that guarantees your leader will discover a super rare Insight Skill."
+      ],
+      "to": "A Training item that guarantees your leader will discover an A-rank or S-rank Insight Skill."
+    },
+    {
+      "id": "item_desc_1501",
+      "from": [
+        "A Training item that increases the drop rate of super rare items. You can obtain these when you complete Goals."
+      ],
+      "to": "A Training item that increases the drop rate of higher-rarity items."
+    },
+    {
+      "id": "item_desc_1502",
+      "from": [
+        "A Training item that increases the drop rate of ultra rare items. You can obtain these when you complete Goals."
+      ],
+      "to": "A Training item that increases the drop rate of higher-rarity items."
+    },
+    {
+      "id": "elichika_description_2",
+      "from": [
+        "Subscribe to SIFAS Mods Page"
+      ],
+      "to": "Visit the SIFAS Mods Page"
+    }
+  ]
+}
