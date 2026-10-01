@@ -35,7 +35,9 @@ UPDATE m_dictionary SET message = 'https://youtu.be/dQw4w9WgXcQ' WHERE id = 'rev
 UPDATE m_dictionary SET message = 'High Quality Mode' WHERE id = 'system_option_701';
 UPDATE m_dictionary SET message = 'High Quality Mode' WHERE id = 'system_option_703';
 UPDATE m_dictionary SET message = 'Max 3D (No Split Screen)' WHERE id = 'm_live_quality_mode_name_high3d';
-UPDATE m_dictionary SET message = 'Same as Max 3D but without split screen' WHERE id = 'm_live_quality_mode_text_high3d_desc';
+UPDATE m_dictionary SET message = 'Max 3D (Split Screen)' WHERE id = 'm_live_quality_mode_name_max3d';
+UPDATE m_dictionary SET message = 'This is the highest quality setting, with fluid 3D animation and high-resolution graphics displayed on a single screen.' WHERE id = 'm_live_quality_mode_text_high3d_desc';
+UPDATE m_dictionary SET message = 'This is the highest quality setting, with fluid 3D animation and high-resolution graphics, supporting split-screen MV performances.' WHERE id = 'm_live_quality_mode_text_max3d_desc';
 UPDATE m_dictionary SET message = 'Shooting Star of Memories' WHERE id = 'replacement_skill_name_30000527';
 UPDATE m_dictionary SET message = 'Tropical Smile' WHERE id = 'replacement_skill_name_30000528';
 UPDATE m_dictionary SET message = 'Beach Survivor' WHERE id = 'replacement_skill_name_30000529';
